@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "../ui/Button";
 import { Menu, X, Search } from "lucide-react";
