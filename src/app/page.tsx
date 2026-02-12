@@ -246,16 +246,16 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
             <div className="w-12 h-1 bg-primary mb-6"></div>
-            <h2 className="text-4xl font-bold text-white mb-6">Join the Energy Revolution</h2>
+            <h2 className="text-4xl font-bold text-red-500 mb-6">Join the Energy Revolution</h2>
             <p className="text-slate-200 text-lg mb-10">
               Build a career that matters. At DeepRidge, we are looking for the next generation of engineers, thinkers, and doers to reshape the global energy landscape.
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 font-bold tracking-wider transition-all uppercase">Find Your Role</button>
-              <button className="border-2 border-red-500 text-white hover:bg-white hover:text-secondary px-8 py-4 font-bold tracking-wider transition-all uppercase flex items-center gap-2">
+              <Link href="/about" className="border-2 border-red-500 text-white hover:bg-red-500 hover:text-white px-8 py-4 font-bold tracking-wider transition-all uppercase flex items-center gap-2">
                 <span className="material-icons-outlined">play_circle</span>
                 Our Story
-              </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -11,7 +11,6 @@ export default function Projects() {
             <ProjectHero />
             <ProjectList />
             <GlobalReach />
-            <GlobalReach />
         </main>
     );
 }

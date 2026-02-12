@@ -14,8 +14,8 @@ export default function NewsPage() {
                     className="absolute inset-0 w-full h-full object-cover"
                 />
                 <div className="relative z-20 text-center px-4">
-                    <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">Newsroom</h1>
-                    <p className="text-xl text-slate-200 max-w-2xl mx-auto">
+                    <h1 className="text-5xl md:text-6xl font-extrabold text-red-500 mb-4 tracking-tight">Newsroom</h1>
+                    <p className="text-xl text-red-500 max-w-2xl mx-auto">
                         Latest updates, press releases, and insights from DeepRidge Energy.
                     </p>
                 </div>
