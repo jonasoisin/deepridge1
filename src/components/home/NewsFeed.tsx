@@ -59,7 +59,7 @@ export function NewsFeed() {
                         </div>
                     ))}
                 </div>
-                <div className="mt-12 pt-8 border-t border-gray-200">
+                <div className="mt-12 pt-8 border-t border-red-500">
                     <a href="#" className="text-primary font-bold text-xs uppercase tracking-wider flex items-center gap-2 hover:gap-3 transition-all">
                         SEE ALL NEWS <ArrowRight className="w-4 h-4" />
                     </a>

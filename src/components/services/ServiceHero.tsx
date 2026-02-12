@@ -27,7 +27,7 @@ export function ServiceHero() {
                     </p>
                     <div className="pt-8 flex gap-4">
                         <Button variant="primary">EXPLORE SERVICES</Button>
-                        <Button variant="outline" className="border-white text-white hover:bg-white hover:text-secondary">OUR PORTFOLIO</Button>
+                        <Button variant="outline" className="border-red-500 text-white hover:bg-white hover:text-secondary">OUR PORTFOLIO</Button>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import { Section } from "../ui/Section";
 import { Button } from "../ui/Button";
 import { LayoutGrid, Map as MapIcon, ChevronDown, ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 type Category = "All Projects" | "Renewables" | "Natural Gas" | "Carbon Capture";
 
@@ -13,6 +14,7 @@ const projects = [
         category: "Renewables",
         location: "Norway, North Sea",
         title: "Hywind Tampen Floating Wind",
+        slug: "hywind-tampen-floating-wind",
         stats: [
             { label: "OUTPUT", value: "88 MW" },
             { label: "CO2 REDUCED", value: "200k t/y" }
@@ -53,6 +55,7 @@ const projects = [
         category: "Natural Gas",
         location: "Gulf of Mexico",
         title: "Viking Deepwater Project",
+        slug: "autonomous-rig-operations-brazil",
         stats: [
             { label: "DEPTH", value: "2,800 m" },
             { label: "RESERVES", value: "4.2 Tcf" }
@@ -63,6 +66,7 @@ const projects = [
         category: "Renewables",
         location: "Rotterdam, NL",
         title: "H2-Horizon Electrolyzer",
+        slug: "nex-gen-hub-offshore-hydrogen",
         stats: [
             { label: "POWER", value: "200 MW" },
             { label: "TYPE", value: "Green H2" }
@@ -80,7 +84,7 @@ export function ProjectList() {
 
     return (
         <div className="bg-gray-50 min-h-screen">
-            <div className="bg-white border-b border-gray-200 sticky top-20 z-40">
+            <div className="bg-white border-b border-red-500 sticky top-20 z-40">
                 <div className="container mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto">
                         {(["All Projects", "Renewables", "Natural Gas", "Carbon Capture"] as Category[]).map((cat) => (
@@ -88,8 +92,8 @@ export function ProjectList() {
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
                                 className={`px-4 py-2 text-sm font-bold whitespace-nowrap transition-colors rounded-sm ${activeCategory === cat
-                                        ? "bg-primary text-white"
-                                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                    ? "bg-primary text-white"
+                                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                                     }`}
                             >
                                 {cat}
@@ -121,8 +125,8 @@ export function ProjectList() {
                             <div className="relative h-64 overflow-hidden">
                                 <div className="absolute top-4 left-4 z-10">
                                     <span className={`text-xs font-bold text-white px-3 py-1 uppercase tracking-wider ${project.category === 'Renewables' ? 'bg-green-600' :
-                                            project.category === 'Natural Gas' ? 'bg-blue-900' :
-                                                'bg-teal-600'
+                                        project.category === 'Natural Gas' ? 'bg-blue-900' :
+                                            'bg-teal-600'
                                         }`}>
                                         {project.category}
                                     </span>
@@ -146,7 +150,7 @@ export function ProjectList() {
                                     Utility-scale solution featuring advanced tracking technology focused on sustainability.
                                 </p>
 
-                                <div className="grid grid-cols-2 gap-4 mb-6 border-t border-gray-100 pt-6">
+                                <div className="grid grid-cols-2 gap-4 mb-6 border-t border-red-500 pt-6">
                                     {project.stats.map((stat, i) => (
                                         <div key={i}>
                                             <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">{stat.label}</div>
@@ -155,9 +159,15 @@ export function ProjectList() {
                                     ))}
                                 </div>
 
-                                <button className="text-primary font-bold text-xs uppercase tracking-wider flex items-center gap-2 hover:gap-3 transition-all">
-                                    EXPLORE PROJECT <ArrowRight className="w-4 h-4" />
-                                </button>
+                                {(project as any).slug ? (
+                                    <Link href={`/news/${(project as any).slug}`} className="text-primary font-bold text-xs uppercase tracking-wider flex items-center gap-2 hover:gap-3 transition-all">
+                                        EXPLORE PROJECT <ArrowRight className="w-4 h-4" />
+                                    </Link>
+                                ) : (
+                                    <button className="text-primary font-bold text-xs uppercase tracking-wider flex items-center gap-2 hover:gap-3 transition-all">
+                                        EXPLORE PROJECT <ArrowRight className="w-4 h-4" />
+                                    </button>
+                                )}
                             </div>
                         </div>
                     ))}

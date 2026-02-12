@@ -1,5 +1,6 @@
 import { Section } from "../ui/Section";
 import { Button } from "../ui/Button";
+import { WorldMap } from "../ui/world-map";
 
 export function GlobalReach() {
     return (
@@ -26,17 +27,35 @@ export function GlobalReach() {
                     <Button variant="primary">DOWNLOAD PORTFOLIO PDF</Button>
                 </div>
 
-                <div className="lg:w-1/2 relative bg-gray-50 rounded-2xl p-12 min-h-[400px] flex items-center justify-center">
-                    {/* Placeholder for complex map interaction */}
-                    <div className="text-center">
-                        <div className="w-64 h-64 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center relative">
-                            {/* Abstract map representation */}
-                            <div className="absolute w-3 h-3 bg-primary rounded-full top-10 left-10 animate-pulse" />
-                            <div className="absolute w-3 h-3 bg-primary rounded-full bottom-12 right-20 animate-pulse delay-75" />
-                            <div className="absolute w-3 h-3 bg-primary rounded-full top-1/2 left-1/2 animate-pulse delay-150" />
-                            <span className="text-gray-400 font-bold text-xs">INTERACTIVE MAP PREVIEW</span>
-                        </div>
-                    </div>
+                <div className="lg:w-1/2 relative bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-4 min-h-[400px] flex items-center justify-center overflow-hidden">
+                    <WorldMap
+                        dots={[
+                            {
+                                start: { lat: 64.2008, lng: -149.4937 }, // Alaska (Fairbanks)
+                                end: { lat: 34.0522, lng: -118.2437 }, // Los Angeles
+                            },
+                            {
+                                start: { lat: 64.2008, lng: -149.4937 }, // Alaska (Fairbanks)
+                                end: { lat: -15.7975, lng: -47.8919 }, // Brazil (Brasília)
+                            },
+                            {
+                                start: { lat: -15.7975, lng: -47.8919 }, // Brazil (Brasília)
+                                end: { lat: 38.7223, lng: -9.1393 }, // Lisbon
+                            },
+                            {
+                                start: { lat: 51.5074, lng: -0.1278 }, // London
+                                end: { lat: 28.6139, lng: 77.209 }, // New Delhi
+                            },
+                            {
+                                start: { lat: 28.6139, lng: 77.209 }, // New Delhi
+                                end: { lat: 43.1332, lng: 131.9113 }, // Vladivostok
+                            },
+                            {
+                                start: { lat: 28.6139, lng: 77.209 }, // New Delhi
+                                end: { lat: -1.2921, lng: 36.8219 }, // Nairobi
+                            },
+                        ]}
+                    />
                 </div>
             </div>
         </Section>

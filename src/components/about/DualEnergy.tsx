@@ -1,62 +1,39 @@
-import { Section } from "../ui/Section";
-import Image from "next/image";
-import { Wind, Flame } from "lucide-react";
-
 export function DualEnergy() {
     return (
-        <Section>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-                <div>
-                    <div className="flex items-center gap-4 mb-8">
-                        <div className="w-1 h-12 bg-primary" />
-                        <h2 className="text-4xl font-bold text-secondary uppercase leading-none">
-                            Leading the <br />
-                            <span className="text-primary">Dual-Energy</span> Era
-                        </h2>
-                    </div>
-
-                    <div className="space-y-12">
-                        <div className="flex gap-6">
-                            <div className="text-primary mt-1"><Wind className="w-8 h-8" /></div>
-                            <div>
-                                <h4 className="font-bold text-secondary mb-2 uppercase tracking-wide">Hywind Technology</h4>
-                                <p className="text-gray-600 leading-relaxed">
-                                    As the first to commercialize deep-water floating wind farms, our Hywind platforms provide stable, high-capacity renewable power where fixed foundations cannot reach.
-                                </p>
-                            </div>
+        <section className="py-24 bg-white dark:bg-slate-900">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col lg:flex-row gap-16 items-center">
+                    <div className="lg:w-1/2 space-y-12">
+                        <div className="border-l-4 border-red-500 pl-4">
+                            <h2 className="font-display text-4xl font-extrabold uppercase leading-tight">Leading the <br /><span className="text-primary">Dual-Energy</span> Era</h2>
                         </div>
-
-                        <div className="flex gap-6">
-                            <div className="text-primary mt-1"><Flame className="w-8 h-8" /></div>
-                            <div>
-                                <h4 className="font-bold text-secondary mb-2 uppercase tracking-wide">Low-Carbon Natural Gas</h4>
-                                <p className="text-gray-600 leading-relaxed">
-                                    We utilize advanced carbon capture and storage (CCS) at every extraction point, ensuring our natural gas production remains the cleanest in the global market.
-                                </p>
+                        <div className="space-y-8">
+                            <div className="flex gap-6">
+                                <div className="flex-shrink-0 text-primary">
+                                    <span className="material-icons-outlined text-4xl">air</span>
+                                </div>
+                                <div>
+                                    <h3 className="font-display font-bold text-lg uppercase mb-2">Hywind Technology</h3>
+                                    <p className="text-slate-600 dark:text-slate-400">As the first to commercialize deep-water floating wind farms, our Hywind platforms provide stable, high-capacity renewable power where fixed foundations cannot reach.</p>
+                                </div>
+                            </div>
+                            <div className="flex gap-6">
+                                <div className="flex-shrink-0 text-primary">
+                                    <span className="material-icons-outlined text-4xl">local_fire_department</span>
+                                </div>
+                                <div>
+                                    <h3 className="font-display font-bold text-lg uppercase mb-2">Low-Carbon Natural Gas</h3>
+                                    <p className="text-slate-600 dark:text-slate-400">We utilize advanced carbon capture and storage (CCS) at every extraction point, ensuring our natural gas production remains the cleanest in the global market.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4 h-[500px]">
-                    <div className="relative h-full rounded-sm overflow-hidden mt-12">
-                        <Image
-                            src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop"
-                            alt="Wind"
-                            fill
-                            className="object-cover"
-                        />
-                    </div>
-                    <div className="relative h-full rounded-sm overflow-hidden mb-12">
-                        <Image
-                            src="https://images.unsplash.com/photo-1581094285859-9745a550992b?q=80&w=2070&auto=format&fit=crop"
-                            alt="Gas"
-                            fill
-                            className="object-cover"
-                        />
+                    <div className="lg:w-1/2 grid grid-cols-2 gap-4">
+                        <img alt="Wind turbines" className="rounded-sm shadow-lg h-80 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCObm_qicJY7Wt9UYxrrIAiVdAE1O0yN7VGR8hYO2IvAsGUdizY_LE8dLGTgw9tA7GZ5E5QQgK9LJRDfwbikldHZAz-n5qi_5FkOpqTU0gF1ZJ0q8gE1Jsa2WLk19MXE1gLjkZRKGo-QggvlK9NEyyIGJnp9YiMQwaVUUpVzfyVJrRqbgwheK1PJekg7_TOCdLV46zKWQPprzUJvb_I3OzddPAtB7bwXxtiiI570c1Fpj3XLUHAl_uBSX212EQ9d-YCTIXX1NUZYA" />
+                        <img alt="Industrial gas facility" className="rounded-sm shadow-lg mt-12 h-80 w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkh0OpZqFj9aMxYBUd3FRZmDXDQnkXxHm_WEkWg4H5GiDzWy8jlBugf3B0IU5mGCaZ76kmx2Jkf2H61TFJrq8Sw-b6D_0q8DbHy_udHx943RrtEQqXu5ZfLJkpAElV2TLUp59WdJj27jNvNI367yC0ZvIBlzWXX0qs1AH4IsXE2l4Cph66vmkee2yMnCH5-unttY9w3Xa2mYvy8FXOtVieGXP45IWVgkVdHcqcxJgPnwX3_kUbwL6DOC61lqbyjveuT2TeNaSAvA" />
                     </div>
                 </div>
             </div>
-        </Section>
+        </section>
     );
 }

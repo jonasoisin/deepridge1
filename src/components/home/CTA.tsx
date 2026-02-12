@@ -24,14 +24,14 @@ export function CTA() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 mt-10">
                         <Button variant="primary">FIND YOUR ROLE</Button>
-                        <Button variant="outline" className="border-white text-white hover:bg-white hover:text-secondary flex items-center gap-2">
+                        <Button variant="outline" className="border-red-500 text-white hover:bg-white hover:text-secondary flex items-center gap-2">
                             <PlayCircle className="w-5 h-5" /> OUR STORY
                         </Button>
                     </div>
                 </div>
 
                 {/* Optional Right Side Image/Graphic if needed (e.g. video thumbnail) */}
-                {/* <div className="hidden lg:block w-1/3 h-64 bg-white/5 rounded-lg border border-white/10" /> */}
+                {/* <div className="hidden lg:block w-1/3 h-64 bg-white/5 rounded-lg border border-red-500/10" /> */}
             </div>
         </div>
     );

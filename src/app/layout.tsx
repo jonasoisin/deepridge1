@@ -1,12 +1,32 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Inter, Montserrat, Lexend, Outfit } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
 
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
-  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
 });
+
+const lexend = Lexend({
+  subsets: ["latin"],
+  variable: "--font-lexend",
+  display: "swap",
+});
+
+
 
 export const metadata: Metadata = {
   title: "DeepRidge Energy | Powering the Future",
@@ -35,6 +55,9 @@ export const metadata: Metadata = {
   },
 };
 
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,10 +65,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+      </head>
       <body
-        className={`${outfit.variable} font-sans antialiased text-secondary bg-white`}
+        className={`${inter.variable} ${montserrat.variable} ${lexend.variable} font-sans antialiased text-slate-900 bg-white`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

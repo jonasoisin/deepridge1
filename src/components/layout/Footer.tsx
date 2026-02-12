@@ -1,104 +1,67 @@
 import Link from "next/link";
-import { Facebook, Twitter, Linkedin, Globe } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
-    const currentYear = new Date().getFullYear();
-
-    const footerLinks = {
-        solutions: [
-            { name: "Offshore Wind", href: "/services" },
-            { name: "Natural Gas Services", href: "/services" },
-            { name: "Subsea Engineering", href: "/services" },
-            { name: "Asset Management", href: "/services" },
-            { name: "Decommissioning", href: "/services" },
-        ],
-        company: [
-            { name: "About Us", href: "/about" },
-            { name: "Sustainability", href: "/about" },
-            { name: "Innovation Lab", href: "/projects" },
-            { name: "Investors", href: "/about" },
-            { name: "Newsroom", href: "/about" },
-        ],
-        support: [
-            { name: "Contact Support", href: "/contact" },
-            { name: "Global Locations", href: "/contact" },
-            { name: "Ethics & Compliance", href: "/about" },
-            { name: "Privacy Policy", href: "/about" },
-        ],
-    };
-
     return (
         <footer className="bg-secondary text-white pt-20 pb-10">
-            <div className="container mx-auto px-4 md:px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-                    {/* Brand Column */}
-                    <div className="space-y-6">
-                        <Link href="/" className="flex items-center gap-2 mb-6">
-                            <div className="w-8 h-8 bg-primary flex items-center justify-center rounded-sm">
-                                <span className="text-white font-bold text-lg">D</span>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+                    <div className="col-span-1 md:col-span-1">
+                        <div className="flex items-center gap-2 mb-8">
+                            <div className="relative w-32 h-10">
+                                <Image
+                                    src="/de.png"
+                                    alt="DeepRidge Energy"
+                                    fill
+                                    className="object-contain object-left"
+                                />
                             </div>
-                            <span className="text-xl font-bold tracking-tight text-white">
-                                DEEPRIDGE
-                            </span>
-                        </Link>
-                        <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
+                        </div>
+                        <p className="text-slate-400 text-sm leading-relaxed mb-8">
                             Engineering sustainable energy solutions for a cleaner, more reliable future. Leading the way in Hywind and advanced natural gas technologies.
                         </p>
                         <div className="flex gap-4">
-                            <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-                            <Twitter className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-                            <Linkedin className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-                            <Globe className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+                            <Link className="text-slate-400 hover:text-red-500 transition-colors" href="#"><span className="material-icons-outlined">facebook</span></Link>
+                            <Link className="text-slate-400 hover:text-red-500 transition-colors" href="#"><span className="material-icons-outlined">language</span></Link>
+                            <Link className="text-slate-400 hover:text-red-500 transition-colors" href="#"><span className="material-icons-outlined">alternate_email</span></Link>
                         </div>
                     </div>
-
-                    {/* Links Columns */}
                     <div>
-                        <h4 className="text-primary font-bold uppercase tracking-wider text-sm mb-6">Solutions</h4>
-                        <ul className="space-y-4">
-                            {footerLinks.solutions.map((link) => (
-                                <li key={link.name}>
-                                    <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors">
-                                        {link.name}
-                                    </Link>
-                                </li>
-                            ))}
+                        <Link href="/solutions" className="group block mb-6"><h4 className="font-bold text-sm uppercase tracking-widest text-red-500 group-hover:text-red-400 transition-colors">Solutions</h4></Link>
+                        <ul className="space-y-4 text-sm text-slate-400">
+                            <li><Link className="hover:text-red-500 transition-colors" href="/solutions/offshore-wind">Offshore Wind</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/solutions/natural-gas">Natural Gas Services</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/solutions/subsea-engineering">Subsea Engineering</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/solutions/asset-management">Asset Management</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/solutions/decommissioning">Decommissioning</Link></li>
                         </ul>
                     </div>
-
                     <div>
-                        <h4 className="text-primary font-bold uppercase tracking-wider text-sm mb-6">Company</h4>
-                        <ul className="space-y-4">
-                            {footerLinks.company.map((link) => (
-                                <li key={link.name}>
-                                    <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors">
-                                        {link.name}
-                                    </Link>
-                                </li>
-                            ))}
+                        <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-red-500">Company</h4>
+                        <ul className="space-y-4 text-sm text-slate-400">
+                            <li><Link className="hover:text-red-500 transition-colors" href="/company/about-us">About Us</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/company/sustainability">Sustainability</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/company/innovation-lab">Innovation Lab</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/company/investors">Investors</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/news">Newsroom</Link></li>
                         </ul>
                     </div>
-
                     <div>
-                        <h4 className="text-primary font-bold uppercase tracking-wider text-sm mb-6">Support</h4>
-                        <ul className="space-y-4">
-                            {footerLinks.support.map((link) => (
-                                <li key={link.name}>
-                                    <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors">
-                                        {link.name}
-                                    </Link>
-                                </li>
-                            ))}
+                        <Link href="/support" className="group block mb-6"><h4 className="font-bold text-sm uppercase tracking-widest text-red-500 group-hover:text-red-400 transition-colors">Support</h4></Link>
+                        <ul className="space-y-4 text-sm text-slate-400">
+                            <li><Link className="hover:text-red-500 transition-colors" href="/contact">Contact Support</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/support/global-locations">Global Locations</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/support/ethics-compliance">Ethics & Compliance</Link></li>
+                            <li><Link className="hover:text-red-500 transition-colors" href="/legal/privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>
-
-                <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-                    <p>&copy; {currentYear} DeepRidge Energy Corp. All rights reserved.</p>
-                    <div className="flex gap-6 mt-4 md:mt-0">
-                        <Link href="#" className="hover:text-white">Terms of Service</Link>
-                        <Link href="#" className="hover:text-white">Privacy</Link>
-                        <Link href="#" className="hover:text-white">Cookie Settings</Link>
+                <div className="pt-8 border-t border-red-500 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+                    <p>© 2025 DeepRidge Energy Corp. All rights reserved.</p>
+                    <div className="flex gap-8">
+                        <Link className="hover:text-red-500 transition-colors" href="/legal/terms-of-service">Terms of Service</Link>
+                        <Link className="hover:text-red-500 transition-colors" href="/legal/privacy-policy">Privacy</Link>
+                        <Link className="hover:text-red-500 transition-colors" href="/legal/cookie-settings">Cookie Settings</Link>
                     </div>
                 </div>
             </div>

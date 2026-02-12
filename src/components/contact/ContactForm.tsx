@@ -17,28 +17,28 @@ export function ContactForm() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="space-y-2">
                                 <label className="text-xs font-bold text-secondary uppercase tracking-wider">First Name *</label>
-                                <input type="text" className="w-full bg-gray-50 border-b border-gray-200 p-4 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="text" className="w-full bg-gray-50 border-b border-red-500 p-4 focus:outline-none focus:border-red-500 transition-colors" />
                             </div>
                             <div className="space-y-2">
                                 <label className="text-xs font-bold text-secondary uppercase tracking-wider">Last Name *</label>
-                                <input type="text" className="w-full bg-gray-50 border-b border-gray-200 p-4 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="text" className="w-full bg-gray-50 border-b border-red-500 p-4 focus:outline-none focus:border-red-500 transition-colors" />
                             </div>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="space-y-2">
                                 <label className="text-xs font-bold text-secondary uppercase tracking-wider">Email Address *</label>
-                                <input type="email" className="w-full bg-gray-50 border-b border-gray-200 p-4 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="email" className="w-full bg-gray-50 border-b border-red-500 p-4 focus:outline-none focus:border-red-500 transition-colors" />
                             </div>
                             <div className="space-y-2">
                                 <label className="text-xs font-bold text-secondary uppercase tracking-wider">Phone Number</label>
-                                <input type="tel" className="w-full bg-gray-50 border-b border-gray-200 p-4 focus:outline-none focus:border-primary transition-colors" />
+                                <input type="tel" className="w-full bg-gray-50 border-b border-red-500 p-4 focus:outline-none focus:border-red-500 transition-colors" />
                             </div>
                         </div>
 
                         <div className="space-y-2">
                             <label className="text-xs font-bold text-secondary uppercase tracking-wider">Message *</label>
-                            <textarea rows={6} className="w-full bg-gray-50 border-b border-gray-200 p-4 focus:outline-none focus:border-primary transition-colors resize-none"></textarea>
+                            <textarea rows={6} className="w-full bg-gray-50 border-b border-red-500 p-4 focus:outline-none focus:border-red-500 transition-colors resize-none"></textarea>
                         </div>
 
                         <Button type="submit" className="w-full md:w-auto px-12">SUBMIT REQUEST</Button>

@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stitch Contact DeepRidge Energy
+
+Overview of the Stitch Contact DeepRidge Energy project. This project is a Next.js application designed for DeepRidge Energy, featuring a modern, responsive design with a focus on showcased services, projects, and news.
+
+## Features
+
+-   **Next.js 15+**: Built with the latest Next.js features including App Router.
+-   **TypeScript**: Fully typed for better code quality and developer experience.
+-   **Tailwind CSS**: Utility-first CSS framework for rapid and responsive UI development.
+-   **Responsive Design**: Optimized for all device sizes, from mobile to desktop.
+-   **SEO Optimized**: configured with proper metadata and semantic HTML.
 
 ## Getting Started
 
@@ -16,21 +26,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create an optimized production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+The output will be in the `.next` folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is ready to be deployed on Vercel or any other Next.js compatible hosting provider.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

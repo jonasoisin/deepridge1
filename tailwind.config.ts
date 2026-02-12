@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
+  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,18 +12,31 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        borderColor: {
+          DEFAULT: "#ef4444", // red-500
+        },
         primary: {
-          DEFAULT: "#E31837", // DeepRidge Red
-          hover: "#C4122C",
+          DEFAULT: "#D92D20", // Energy Red
+          hover: "#B91C1C",
         },
         secondary: {
-          DEFAULT: "#0A192F", // Deep Blue
-          light: "#112240",
+          DEFAULT: "#0B2B40", // Deep Ridge Blue
+          light: "#173A52",
         },
-        muted: "#8892B0",
+        "background-light": "#F9FAFB",
+        "background-dark": "#0A0D12",
+        "surface-light": "#FFFFFF",
+        "surface-dark": "#1E293B",
+        "accent-light": "#F8FAFC",
+        "accent-dark": "#1E293B",
+        muted: "#94A3B8",
       },
       fontFamily: {
-        sans: ["var(--font-outfit)", "ui-sans-serif", "system-ui"],
+        sans: ["var(--font-inter)", "ui-sans-serif", "system-ui"],
+        display: ["var(--font-inter)", "sans-serif"],
+      },
+      borderRadius: {
+        DEFAULT: "4px",
       },
       container: {
         center: true,
@@ -33,5 +47,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 } satisfies Config;
