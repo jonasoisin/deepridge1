@@ -27,7 +27,7 @@ export function GlobalReach() {
                     <Button variant="primary">DOWNLOAD PORTFOLIO PDF</Button>
                 </div>
 
-                <div className="lg:w-1/2 relative bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-4 min-h-[400px] flex items-center justify-center overflow-hidden">
+                <div className="lg:w-1/2">
                     <WorldMap
                         dots={[
                             {

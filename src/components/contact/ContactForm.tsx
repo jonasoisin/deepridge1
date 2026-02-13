@@ -51,27 +51,11 @@ export function ContactForm() {
                         <h3 className="flex items-center gap-2 text-lg font-bold text-secondary mb-8">
                             Global Reach
                         </h3>
-
                         <div className="space-y-8">
                             <div>
                                 <h4 className="text-primary text-xs font-bold uppercase tracking-widest mb-2">Corporate HQ</h4>
-                                <p className="text-sm text-gray-600">1201 DeepRidge Tower</p>
-                                <p className="text-sm text-gray-600">Houston, TX 77002, USA</p>
-                                <p className="text-sm text-secondary font-bold mt-2">+1 (713) 555-0100</p>
-                            </div>
-
-                            <div>
-                                <h4 className="text-primary text-xs font-bold uppercase tracking-widest mb-2">European Hub</h4>
-                                <p className="text-sm text-gray-600">Stavanger Business Park</p>
-                                <p className="text-sm text-gray-600">4005 Stavanger, Norway</p>
-                                <p className="text-sm text-secondary font-bold mt-2">+47 51 00 00 00</p>
-                            </div>
-
-                            <div>
-                                <h4 className="text-primary text-xs font-bold uppercase tracking-widest mb-2">APAC Regional Office</h4>
-                                <p className="text-sm text-gray-600">Marina One East Tower</p>
-                                <p className="text-sm text-gray-600">Singapore 018936</p>
-                                <p className="text-sm text-secondary font-bold mt-2">+65 6500 0000</p>
+                                <p className="text-sm text-gray-600">555 W 5th St, Los Angeles, CA 90013, United States</p>
+                                <p className="text-sm text-secondary font-bold mt-2">+1 530 325 0957</p>
                             </div>
                         </div>
                     </div>

@@ -85,18 +85,8 @@ export function InquiryForm() {
                         <div className="space-y-6">
                             <div className="border-b border-red-500 dark:border-red-500 pb-4">
                                 <h4 className="font-bold uppercase tracking-wide text-xs text-primary mb-1">Corporate HQ</h4>
-                                <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">1201 DeepRidge Tower<br />Houston, TX 77002, USA</p>
-                                <p className="text-sm font-semibold mt-2 text-slate-900 dark:text-white">+1 (713) 555-0100</p>
-                            </div>
-                            <div className="border-b border-red-500 dark:border-red-500 pb-4">
-                                <h4 className="font-bold uppercase tracking-wide text-xs text-primary mb-1">European Hub</h4>
-                                <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Stavanger Business Park<br />4005 Stavanger, Norway</p>
-                                <p className="text-sm font-semibold mt-2 text-slate-900 dark:text-white">+47 51 00 00 00</p>
-                            </div>
-                            <div>
-                                <h4 className="font-bold uppercase tracking-wide text-xs text-primary mb-1">APAC Regional Office</h4>
-                                <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Marina One East Tower<br />Singapore 018936</p>
-                                <p className="text-sm font-semibold mt-2 text-slate-900 dark:text-white">+65 6500 0000</p>
+                                <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">555 W 5th St, Los Angeles, CA 90013, United States</p>
+                                <p className="text-sm font-semibold mt-2 text-slate-900 dark:text-white">+1 530 325 0957</p>
                             </div>
                         </div>
                     </div>

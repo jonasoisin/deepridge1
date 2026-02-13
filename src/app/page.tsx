@@ -28,23 +28,23 @@ export default function Home() {
     <main className="min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200 font-sans">
 
 
-      <header className="relative h-[85vh] overflow-hidden">
+      <header className="relative min-h-fit md:h-[85vh] overflow-hidden">
         <img alt="Offshore wind farm at sunset" className="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-95dvbjJwsmLWBdV_bTb6eSHeytAiZ9NwA8oaYoSFCzjxaaH0XwbCAYQrxdrWSToAbd0Bm2fNPqFZL9WuYyJTLOI9WDXxWds5WbjLsvfc9mSEB2pJk7Sf-a8n1BAmnDnQMbGXW0ZFhsa2HU_iCh5Sbllf8UWVZ56iP6wL5j3crzulhpRkWHDycpFD2sMi85zyb2mKN7ywEsw0wdHdotTEfPBeMTc7gFebvGhSHgThc_PpTqGaHJFAUXYcYwOdT-w7VYKh8hQs0w" />
         <div className="absolute inset-0 bg-gradient-to-r from-[rgba(11,43,64,0.9)] to-[rgba(11,43,64,0.4)]"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center py-20 md:py-0">
           <div className="max-w-2xl border-l-4 border-red-500 pl-8 py-4 border-red-500">
-            <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4 md:mb-6">
               Powering the <br />Future of Energy
             </h1>
-            <p className="text-xl text-slate-200 mb-10 leading-relaxed max-w-lg">
+            <p className="text-base sm:text-xl text-slate-200 mb-6 md:mb-10 leading-relaxed max-w-lg">
               As an industry leader in Hywind and Natural Gas, we collaborate and engineer solutions to maximize asset value and drive global sustainability.
             </p>
-            <button className="bg-white text-secondary px-10 py-4 font-bold tracking-wider hover:bg-slate-100 transition-all flex items-center gap-2">
+            <button className="bg-red-500 text-white px-6 sm:px-10 py-3 sm:py-4 text-sm sm:text-base font-bold tracking-wider hover:bg-slate-100 transition-all flex items-center gap-2">
               EXPLORE SOLUTIONS
               <span className="material-icons-outlined">arrow_forward</span>
             </button>
           </div>
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl">
+          <div className="mt-10 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl">
             <div className="flex items-start gap-4 text-white/90">
               <span className="material-icons-outlined p-2 border border-red-500/20 rounded-full">handshake</span>
               <div>
@@ -149,9 +149,8 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col md:flex-row h-auto md:h-[600px] border-y border-red-500 dark:border-red-500">
-        <div className="relative flex-1 group overflow-hidden">
-          <img alt="Press Conference Room" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCnA1WoMCf_oJSPJxQVg2Zk0yKPeC0EeWqCzmykalBLvwHDir7mBUCarQ4ko77qQov7BBFX1Wm8pjGKKbgzAwMeiKv4KA1hNuAE2VplqJriOPQ3im7e-V1JqhGOxRcWJJ8kxQtDbPfnpeGQdIqAZzFxYQr2R3-dxj9y4AQEehLcCC-IFhdHqEMPjPrLHMpMg1EIs0zHQbkp5MboEGojIscAAUfLP3iJJZJmRNe6zCX04EDuxwZZQIXDRckqC95WyxpEbRJi3EyYA" />
-          <div className="absolute inset-0 bg-secondary/70"></div>
+        <div className="relative flex-1 group overflow-hidden ">
+          <div className="absolute inset-0 bg-black"></div>
           <div className="relative h-full p-12 flex flex-col justify-center max-w-xl">
             <div className="w-12 h-1 bg-primary mb-6"></div>
             <h2 className="text-4xl font-bold text-white mb-6 leading-tight">DeepRidge Announces Fourth Quarter 2024 Performance Results</h2>
@@ -241,18 +240,17 @@ export default function Home() {
       </section>
 
       <section className="relative h-[450px] flex items-center">
-        <img alt="Career Background" className="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFl0dzupgjLUQcB62rzol4mS7jCCbcZbE9LLX0vlkMC5EDWsilprtjP0MX6A6UVlIR3MUXKLeoJKZYyn3pRkzladGc38F_CB34H4lTgretAMBJf_iHdU1mZpsvk1p71Uc0T0vGoLF4H8ZTXjx5iwE8SiYTi8STlFDj7L8w5jyguzOOsB7y5_4z_NbmYY2KRCBEB_c3PpWqTbh9-541s0tHfSfdiHsgFxAU8y8GqA5Rs0w5sPsBzAuLWGNGUJ1dkwrhIevoyXJbBQ" />
-        <div className="absolute inset-0 bg-secondary/80"></div>
+        <div className="absolute inset-0 bg-black"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
             <div className="w-12 h-1 bg-primary mb-6"></div>
             <h2 className="text-4xl font-bold text-red-500 mb-6">Join the Energy Revolution</h2>
-            <p className="text-slate-200 text-lg mb-10">
+            <p className="text-white text-lg mb-10">
               Build a career that matters. At DeepRidge, we are looking for the next generation of engineers, thinkers, and doers to reshape the global energy landscape.
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 font-bold tracking-wider transition-all uppercase">Find Your Role</button>
-              <Link href="/about" className="border-2 border-red-500 text-white hover:bg-red-500 hover:text-white px-8 py-4 font-bold tracking-wider transition-all uppercase flex items-center gap-2">
+              <Link href="/about" className="border-2 border-red-500 text-white hover:bg-red-500 hover:text- px-8 py-4 font-bold tracking-wider transition-all uppercase flex items-center gap-2">
                 <span className="material-icons-outlined">play_circle</span>
                 Our Story
               </Link>

@@ -7,15 +7,10 @@ export default function NewsPage() {
         <main className="min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200">
             {/* Hero Section */}
             <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-secondary/80 z-10"></div>
-                <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCnA1WoMCf_oJSPJxQVg2Zk0yKPeC0EeWqCzmykalBLvwHDir7mBUCarQ4ko77qQov7BBFX1Wm8pjGKKbgzAwMeiKv4KA1hNuAE2VplqJriOPQ3im7e-V1JqhGOxRcWJJ8kxQtDbPfnpeGQdIqAZzFxYQr2R3-dxj9y4AQEehLcCC-IFhdHqEMPjPrLHMpMg1EIs0zHQbkp5MboEGojIscAAUfLP3iJJZJmRNe6zCX04EDuxwZZQIXDRckqC95WyxpEbRJi3EyYA"
-                    alt="Newsroom Background"
-                    className="absolute inset-0 w-full h-full object-cover"
-                />
+                <div className="absolute inset-0 bg-black z-10"></div>
                 <div className="relative z-20 text-center px-4">
-                    <h1 className="text-5xl md:text-6xl font-extrabold text-red-500 mb-4 tracking-tight">Newsroom</h1>
-                    <p className="text-xl text-red-500 max-w-2xl mx-auto">
+                    <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">Newsroom</h1>
+                    <p className="text-xl text-white max-w-2xl mx-auto">
                         Latest updates, press releases, and insights from DeepRidge Energy.
                     </p>
                 </div>

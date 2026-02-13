@@ -15,18 +15,18 @@ export default function Services() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full relative z-10">
                     <div className="max-w-3xl">
                         <div className="border-l-4 border-red-500 pl-6 mb-8 border-red-500">
-                            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight font-display">
+                            <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight font-display">
                                 Powering the <br />
                                 <span className="text-primary">Global Transition</span>
                             </h1>
-                            <p className="text-xl text-slate-200 mb-8 max-w-xl">
+                            <p className="text-base sm:text-xl text-slate-200 mb-6 sm:mb-8 max-w-xl">
                                 DeepRidge Energy delivers integrated engineering solutions
                                 across Hywind offshore wind and advanced natural gas production.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link
                                     href="#services"
-                                    className="bg-primary hover:bg-red-700 text-white px-8 py-4 font-bold uppercase tracking-widest text-sm transition-all flex items-center"
+                                    className="bg-primary hover:bg-red-700 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold uppercase tracking-widest text-xs sm:text-sm transition-all flex items-center"
                                 >
                                     Explore Services{" "}
                                     <span className="material-icons-outlined ml-2 text-sm">
@@ -35,7 +35,7 @@ export default function Services() {
                                 </Link>
                                 <Link
                                     href="#"
-                                    className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-red-500/30 px-8 py-4 font-bold uppercase tracking-widest text-sm transition-all"
+                                    className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-red-500/30 px-6 sm:px-8 py-3 sm:py-4 font-bold uppercase tracking-widest text-xs sm:text-sm transition-all"
                                 >
                                     Our Portfolio
                                 </Link>
@@ -245,12 +245,7 @@ export default function Services() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col lg:flex-row gap-12">
                         <div className="lg:w-2/3 relative overflow-hidden h-[500px]">
-                            <img
-                                alt="Engineers working"
-                                className="absolute inset-0 w-full h-full object-cover"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2HOaKxwKjSNecTLbWVwAuvtBMk6HxsCug00SW-miEpnIkGfO3hjlNh7OYa_zjKCr5lMGz_f4bKa596kS095Wpgcz6O2e6E3qzhci325dfnh16lzYgXPfQyMbknoerLoGGZZNKBUOO7a5hMHCvjrKW3IIA0QNeNsCPywFdR5Dwkych6BNNWVt6Kv8-VlM-4aUEGXcEEWGtUxN8UKH8YrxjgmuSaiBJ9RFPwYmxTynLaxPRgNYEKgE3K3bYWTyrlIgldqE0u0vt9g"
-                            />
-                            <div className="absolute inset-0 bg-slate-900/60 flex items-end p-12">
+                            <div className="absolute inset-0 bg-black flex items-end p-12">
                                 <div className="border-l-4 border-red-500 pl-6">
                                     <h3 className="text-3xl font-bold text-white mb-4 font-display">
                                         DeepRidge Expands Hywind Project in Northern North Sea

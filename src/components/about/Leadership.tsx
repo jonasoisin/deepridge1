@@ -9,16 +9,12 @@ export function Leadership() {
                     <p className="mt-4 text-lg text-slate-600 dark:text-slate-400 max-w-2xl">Led by industry visionaries with over 150 years of combined experience in energy infrastructure and renewables.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
-                    {/* Marcus Chen */}
+                    {/* william reed */}
                     <div className="bg-white dark:bg-slate-900 p-8 shadow-sm border border-red-500 dark:border-red-500 hover:shadow-xl transition-shadow">
-                        <img alt="CEO Marcus Chen" className="w-24 h-24 rounded-full object-cover mb-6 grayscale hover:grayscale-0 transition-all border-2 border-red-500/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmOhJmor_kFw7q3V6CmGq4WCowkHfFnIzkrbQ9OFjs0lV4k5D52mowJDTWp0lb685q_tAmKYA1wQD-RcCwtANs9crQccI7jjBooov0Mb9f2jBAvij3SxmKuqBTfMhjGr4P5QOlSytkGVcNNph5V5bZhHGK9CSbVUpAATecOEs9MIPqrV5CYiOnaFKExBo1INMdWneyKFv7gVkBsdgvvIPpvvw9MBjbHghdelUQxzt0UJ1YPO2hU6UaJj71oHzAha229qmdOBAZVA" />
+                        <img alt="CEO William Reed" className="w-24 h-24 rounded-full object-cover mb-6 grayscale hover:grayscale-0 transition-all border-2 border-red-500/20" src="/IMG_3154.PNG" />
                         <h4 className="font-display font-bold text-xl mb-1">William Reed</h4>
                         <p className="text-primary font-bold text-sm uppercase mb-4 tracking-widest">Chief Executive Officer</p>
-                        <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">Our advisory clients rely on our models to give them a competitive advantage in negotiation. Our
-                            models must therefore be robust and flexible but above all clear and transparent. Too often modelling
-                            is left to the least experienced team member; at Dael Energy we give modelling to the senior level
-                            management it requires.
-                        </p>
+                        <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">Our advisory clients rely on our models to give them a competitive advantage in negotiation. Our models must therefore be robust and flexible but above all clear and transparent. Too often modelling is left to the least experienced team member; at Dael Energy we give modelling to the senior level management it requires.</p>
                     </div>
                 </div>
             </div>
