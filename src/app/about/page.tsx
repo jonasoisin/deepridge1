@@ -6,7 +6,7 @@ import { SustainabilityReport } from "@/components/about/SustainabilityReport";
 
 export default function AboutPage() {
     return (
-        <main className="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 transition-colors duration-200">
+        <main className="bg-background-light text-slate-800 transition-colors duration-200">
             <AboutHero />
             <Values />
             <Leadership />

@@ -1,6 +1,6 @@
 export function DualEnergy() {
     return (
-        <section className="py-24 bg-white dark:bg-slate-900">
+        <section className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row gap-16 items-center">
                     <div className="lg:w-1/2 space-y-12">
@@ -14,7 +14,7 @@ export function DualEnergy() {
                                 </div>
                                 <div>
                                     <h3 className="font-display font-bold text-lg uppercase mb-2">Hywind Technology</h3>
-                                    <p className="text-slate-600 dark:text-slate-400">As the first to commercialize deep-water floating wind farms, our Hywind platforms provide stable, high-capacity renewable power where fixed foundations cannot reach.</p>
+                                    <p className="text-slate-600">As the first to commercialize deep-water floating wind farms, our Hywind platforms provide stable, high-capacity renewable power where fixed foundations cannot reach.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -23,7 +23,7 @@ export function DualEnergy() {
                                 </div>
                                 <div>
                                     <h3 className="font-display font-bold text-lg uppercase mb-2">Low-Carbon Natural Gas</h3>
-                                    <p className="text-slate-600 dark:text-slate-400">We utilize advanced carbon capture and storage (CCS) at every extraction point, ensuring our natural gas production remains the cleanest in the global market.</p>
+                                    <p className="text-slate-600">We utilize advanced carbon capture and storage (CCS) at every extraction point, ensuring our natural gas production remains the cleanest in the global market.</p>
                                 </div>
                             </div>
                         </div>

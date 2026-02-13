@@ -18,7 +18,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     }
 
     return (
-        <main className="min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200 pt-20">
+        <main className="min-h-screen bg-background-light text-slate-900 transition-colors duration-200 pt-20">
             {/* Hero / Header */}
             <div className="relative h-[50vh] min-h-[400px]">
                 <img
@@ -49,19 +49,19 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
                 {/* Main Content */}
                 <div className="lg:col-span-2">
-                    <p className="text-xl font-medium text-slate-600 dark:text-slate-300 mb-8 leading-relaxed border-l-4 border-primary pl-6 italic">
+                    <p className="text-xl font-medium text-slate-600 mb-8 leading-relaxed border-l-4 border-primary pl-6 italic">
                         {article.summary}
                     </p>
                     <div
-                        className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-slate-900 dark:prose-headings:text-white prose-p:text-slate-600 dark:prose-p:text-slate-400 prose-a:text-primary hover:prose-a:text-primary-hover"
+                        className="prose prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-p:text-slate-600 prose-a:text-primary hover:prose-a:text-primary-hover"
                         dangerouslySetInnerHTML={{ __html: article.content }}
                     />
                 </div>
 
                 {/* Sidebar / Info Box */}
                 <div className="lg:col-span-1">
-                    <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-sm sticky top-24 border border-slate-200 dark:border-red-500/20 shadow-sm">
-                        <h3 className="text-lg font-bold mb-6 uppercase tracking-wider flex items-center gap-2 pb-4 border-b border-slate-200 dark:border-slate-700">
+                    <div className="bg-slate-50 p-8 rounded-sm sticky top-24 border border-slate-200 shadow-sm">
+                        <h3 className="text-lg font-bold mb-6 uppercase tracking-wider flex items-center gap-2 pb-4 border-b border-slate-200">
                             <span className="material-icons-outlined text-primary">info</span>
                             Key Details
                         </h3>
@@ -69,10 +69,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                         <div className="space-y-6">
                             {article.partners && (
                                 <div>
-                                    <h4 className="text-xs text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wide mb-2">Strategic Partners</h4>
+                                    <h4 className="text-xs text-slate-500 font-bold uppercase tracking-wide mb-2">Strategic Partners</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {article.partners.map((partner, index) => (
-                                            <span key={index} className="bg-white dark:bg-slate-700 px-3 py-1 rounded text-sm font-medium shadow-sm border border-slate-100 dark:border-slate-600">
+                                            <span key={index} className="bg-white px-3 py-1 rounded text-sm font-medium shadow-sm border border-slate-100">
                                                 {partner}
                                             </span>
                                         ))}
@@ -82,8 +82,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
                             {article.dealSize && article.dealSize !== "N/A" && (
                                 <div>
-                                    <h4 className="text-xs text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wide mb-2">Deal Size / Value</h4>
-                                    <p className="text-xl font-bold text-slate-900 dark:text-white">
+                                    <h4 className="text-xs text-slate-500 font-bold uppercase tracking-wide mb-2">Deal Size / Value</h4>
+                                    <p className="text-xl font-bold text-slate-900">
                                         {article.dealSize}
                                     </p>
                                 </div>
@@ -91,8 +91,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
                             {article.pressConference && (
                                 <div>
-                                    <h4 className="text-xs text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wide mb-2">Press Conference / Event</h4>
-                                    <p className="text-sm text-slate-600 dark:text-slate-300 flex items-start gap-2">
+                                    <h4 className="text-xs text-slate-500 font-bold uppercase tracking-wide mb-2">Press Conference / Event</h4>
+                                    <p className="text-sm text-slate-600 flex items-start gap-2">
                                         <span className="material-icons-outlined text-base mt-0.5 text-primary">event_note</span>
                                         {article.pressConference}
                                     </p>
@@ -100,8 +100,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                             )}
                         </div>
 
-                        <div className="mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
-                            <h4 className="text-xs text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wide mb-4">Share this article</h4>
+                        <div className="mt-8 pt-6 border-t border-slate-200">
+                            <h4 className="text-xs text-slate-500 font-bold uppercase tracking-wide mb-4">Share this article</h4>
                             <div className="flex gap-4">
                                 <button className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors">
                                     <span className="material-icons-outlined text-sm">facebook</span>

@@ -9,16 +9,6 @@ export function Locations() {
             desc: "Regional Headquarters overseeing onshore and offshore operations in the Gulf of Mexico.",
             image: "https://images.unsplash.com/photo-1550505191-881ec359de67?q=80&w=2666&auto=format&fit=crop", // Houston/City
         },
-        {
-            name: "Europe & Africa",
-            desc: "Centres for offshore wind excellence and North Sea gas exploration services.",
-            image: "https://images.unsplash.com/photo-1510265119258-db115b0e8172?q=80&w=2670&auto=format&fit=crop", // Europe/Solar/City
-        },
-        {
-            name: "Asia Pacific",
-            desc: "Leading our expansion into emerging energy markets across Southeast Asia.",
-            image: "https://images.unsplash.com/photo-1549144511-20058b88dbb4?q=80&w=2576&auto=format&fit=crop", // Singapore/Asia
-        },
     ];
 
     return (

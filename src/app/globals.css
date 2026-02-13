@@ -5,12 +5,7 @@
   --foreground: #0A192F;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0A192F;
-    --foreground: #ffffff;
-  }
-}
+
 
 body {
   color: var(--foreground);

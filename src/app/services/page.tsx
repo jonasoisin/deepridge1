@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Services() {
     return (
-        <div className="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300 font-sans">
+        <div className="bg-background-light text-slate-900 transition-colors duration-300 font-sans">
             <section
                 className="relative min-h-[70vh] flex items-center pt-20 bg-cover bg-center bg-no-repeat"
                 style={{
@@ -45,7 +45,7 @@ export default function Services() {
                 </div>
             </section>
 
-            <section className="py-24 bg-white dark:bg-slate-900" id="services">
+            <section className="py-24 bg-white" id="services">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid lg:grid-cols-2 gap-16">
                         <div className="space-y-10">
@@ -67,7 +67,7 @@ export default function Services() {
                                     <h2 className="text-3xl font-bold mb-4 font-display">
                                         Hywind Offshore Solutions
                                     </h2>
-                                    <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                                    <p className="text-slate-600 leading-relaxed">
                                         We are pioneers in floating wind technology, enabling energy
                                         harvest in deep-water environments where traditional
                                         fixed-bottom turbines cannot reach. Our Hywind solutions
@@ -138,7 +138,7 @@ export default function Services() {
                                     <h2 className="text-3xl font-bold mb-4 font-display">
                                         Natural Gas Production
                                     </h2>
-                                    <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                                    <p className="text-slate-600 leading-relaxed">
                                         Providing critical base-load energy through advanced
                                         extraction and processing. We focus on low-emission
                                         production techniques and efficient distribution networks to
@@ -190,50 +190,50 @@ export default function Services() {
                 </div>
             </section>
 
-            <section className="py-24 bg-slate-50 dark:bg-slate-800/50 border-y border-red-500 dark:border-red-500">
+            <section className="py-24 bg-slate-50 border-y border-red-500">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-sm font-bold tracking-widest text-primary uppercase mb-4">
                             Technical Prowess
                         </h2>
-                        <h3 className="text-4xl font-bold dark:text-white font-display">
+                        <h3 className="text-4xl font-bold font-display">
                             Our Engineering Capabilities
                         </h3>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <div className="bg-white dark:bg-slate-900 p-8 border border-red-500 dark:border-red-500 hover:border-red-500 transition-colors group">
+                        <div className="bg-white p-8 border border-red-500 hover:border-red-500 transition-colors group">
                             <span className="material-icons-outlined text-4xl text-slate-400 group-hover:text-primary transition-colors mb-4">
                                 architecture
                             </span>
                             <h4 className="text-xl font-bold mb-3 font-display">Structural Design</h4>
-                            <p className="text-sm text-slate-500 dark:text-slate-400">
+                            <p className="text-sm text-slate-500">
                                 Advanced FEA modeling for extreme marine environments.
                             </p>
                         </div>
-                        <div className="bg-white dark:bg-slate-900 p-8 border border-red-500 dark:border-red-500 hover:border-red-500 transition-colors group">
+                        <div className="bg-white p-8 border border-red-500 hover:border-red-500 transition-colors group">
                             <span className="material-icons-outlined text-4xl text-slate-400 group-hover:text-primary transition-colors mb-4">
                                 electric_bolt
                             </span>
                             <h4 className="text-xl font-bold mb-3 font-display">Grid Integration</h4>
-                            <p className="text-sm text-slate-500 dark:text-slate-400">
+                            <p className="text-sm text-slate-500">
                                 Smart grid synchronization and voltage stability solutions.
                             </p>
                         </div>
-                        <div className="bg-white dark:bg-slate-900 p-8 border border-red-500 dark:border-red-500 hover:border-red-500 transition-colors group">
+                        <div className="bg-white p-8 border border-red-500 hover:border-red-500 transition-colors group">
                             <span className="material-icons-outlined text-4xl text-slate-400 group-hover:text-primary transition-colors mb-4">
                                 visibility
                             </span>
                             <h4 className="text-xl font-bold mb-3 font-display">Remote Ops</h4>
-                            <p className="text-sm text-slate-500 dark:text-slate-400">
+                            <p className="text-sm text-slate-500">
                                 24/7 autonomous monitoring and digital twins.
                             </p>
                         </div>
-                        <div className="bg-white dark:bg-slate-900 p-8 border border-red-500 dark:border-red-500 hover:border-red-500 transition-colors group">
+                        <div className="bg-white p-8 border border-red-500 hover:border-red-500 transition-colors group">
                             <span className="material-icons-outlined text-4xl text-slate-400 group-hover:text-primary transition-colors mb-4">
                                 handyman
                             </span>
                             <h4 className="text-xl font-bold mb-3 font-display">Lifecycle Mgmt</h4>
-                            <p className="text-sm text-slate-500 dark:text-slate-400">
+                            <p className="text-sm text-slate-500">
                                 Full decommissioning and sustainable asset recycling.
                             </p>
                         </div>
@@ -241,7 +241,7 @@ export default function Services() {
                 </div>
             </section>
 
-            <section className="py-24 bg-white dark:bg-slate-900">
+            <section className="py-24 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col lg:flex-row gap-12">
                         <div className="lg:w-2/3 relative overflow-hidden h-[500px]">
@@ -260,7 +260,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:w-1/3 bg-slate-100 dark:bg-slate-800/50 p-8">
+                        <div className="lg:w-1/3 bg-slate-100 p-8">
                             <h3 className="text-xl font-bold mb-8 uppercase tracking-widest flex items-center font-display">
                                 <span className="material-icons-outlined mr-2">feed</span> News
                                 Feed

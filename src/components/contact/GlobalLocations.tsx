@@ -14,7 +14,7 @@ export function GlobalLocations() {
     ];
 
     return (
-        <section className="py-20 bg-surface-light dark:bg-surface-dark">
+        <section className="py-20 bg-surface-light">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-12">
                     <span className="text-primary font-bold tracking-widest uppercase text-sm">Locations</span>
@@ -22,8 +22,8 @@ export function GlobalLocations() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8">
                     {locations.map((loc, index) => (
-                        <div key={index} className="bg-white dark:bg-slate-800 shadow-sm border border-red-500 dark:border-red-500 group">
-                            <div className="h-48 bg-slate-200 dark:bg-slate-700 relative overflow-hidden">
+                        <div key={index} className="bg-white shadow-sm border border-red-500 group">
+                            <div className="h-48 bg-slate-200 relative overflow-hidden">
                                 <Image
                                     src={loc.image}
                                     alt={`${loc.name} skyline`}
@@ -34,7 +34,7 @@ export function GlobalLocations() {
                             </div>
                             <div className="p-6">
                                 <h3 className="font-display font-bold text-xl mb-2">{loc.name}</h3>
-                                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 h-12">
+                                <p className="text-sm text-slate-500 mb-4 h-12">
                                     {loc.description}
                                 </p>
                                 <Link href="#" className="text-primary font-bold text-xs uppercase tracking-widest flex items-center gap-2 hover:gap-3 transition-all">

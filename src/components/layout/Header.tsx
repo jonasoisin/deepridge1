@@ -8,11 +8,6 @@ import { usePathname } from "next/navigation";
 export function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
-    // Toggle dark mode via document class
-    const toggleDarkMode = () => {
-        document.documentElement.classList.toggle('dark');
-    };
-
     const links = [
         { name: "Services", href: "/services" },
         { name: "About Us", href: "/about" },
@@ -21,7 +16,7 @@ export function Header() {
     ];
 
     return (
-        <nav className="sticky top-0 z-50 bg-white/95 dark:bg-secondary/95 backdrop-blur-md border-b border-red-500 dark:border-red-500 transition-colors duration-200">
+        <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-red-500 transition-colors duration-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     <div className="flex items-center gap-2">
@@ -41,7 +36,7 @@ export function Header() {
                             <Link
                                 key={link.name}
                                 href={link.href}
-                                className="text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-primary dark:hover:text-primary transition-colors"
+                                className="text-sm font-semibold text-slate-700 hover:text-primary transition-colors"
                             >
                                 {link.name}
                             </Link>
@@ -52,26 +47,12 @@ export function Header() {
                         >
                             Contact Us
                         </button>
-                        <button
-                            className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-                            onClick={toggleDarkMode}
-                        >
-                            <span className="material-icons-outlined text-xl text-slate-700 dark:text-white dark:hidden">dark_mode</span>
-                            <span className="material-icons-outlined text-xl text-white hidden dark:block">light_mode</span>
-                        </button>
                     </div>
 
                     {/* Mobile Menu Toggle */}
                     <div className="md:hidden flex items-center gap-4">
                         <button
-                            className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-                            onClick={toggleDarkMode}
-                        >
-                            <span className="material-icons-outlined text-xl text-slate-700 dark:text-white dark:hidden">dark_mode</span>
-                            <span className="material-icons-outlined text-xl text-white hidden dark:block">light_mode</span>
-                        </button>
-                        <button
-                            className="p-2 text-secondary dark:text-white"
+                            className="p-2 text-secondary"
                             onClick={() => setIsOpen(!isOpen)}
                         >
                             <span className="material-icons-outlined">{isOpen ? 'close' : 'menu'}</span>
@@ -82,12 +63,12 @@ export function Header() {
 
             {/* Mobile Nav */}
             {isOpen && (
-                <div className="md:hidden absolute top-20 left-0 w-full bg-white dark:bg-secondary border-b border-red-500 dark:border-red-500 p-4 flex flex-col gap-4 shadow-lg">
+                <div className="md:hidden absolute top-20 left-0 w-full bg-white border-b border-red-500 p-4 flex flex-col gap-4 shadow-lg">
                     {links.map((link) => (
                         <Link
                             key={link.name}
                             href={link.href}
-                            className="text-lg font-medium text-secondary dark:text-white hover:text-primary transition-colors"
+                            className="text-lg font-medium text-secondary hover:text-primary transition-colors"
                             onClick={() => setIsOpen(false)}
                         >
                             {link.name}

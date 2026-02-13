@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200 font-sans">
+    <main className="min-h-screen bg-background-light text-slate-900 transition-colors duration-200 font-sans">
 
 
       <header className="relative min-h-fit md:h-[85vh] overflow-hidden">
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="py-12 bg-white dark:bg-background-dark border-b border-gray-100 dark:border-gray-800">
+      <section className="py-12 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-sm font-semibold text-slate-500 uppercase tracking-widest mb-8">
             Trusted by Industry Leaders
@@ -86,21 +86,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24 bg-white dark:bg-background-dark">
+      <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 mb-12">
             <div className="w-8 h-1 bg-primary"></div>
             <h2 className="text-3xl font-bold tracking-tight">Explore our latest innovations</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group bg-slate-50 dark:bg-slate-900 border border-red-500 dark:border-red-500 transition-transform hover:-translate-y-1">
+            <div className="group bg-slate-50 border border-red-500 transition-transform hover:-translate-y-1">
               <div className="relative overflow-hidden aspect-video">
                 <img alt="Innovation center" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9zcPCQmXc_YFcFeLFnQUPRzFKN9Mcz3ZbyY-koIp0DvAZ4kKl1DpShovAhscx0sO75ds-WhFVkuHvPDE2ndrWHSkdUlROMSOZCFcXwtrwI2lxuSXZPfzRxyShXuOHWqMr5O347-kPHF3OaPplJTUw0cat8B-dvwSwV3QcDc1UNh9nR067_pMWcPTAyZpe35tf2amx74kZOYhySx6xxjl_ICk_tdHOVILgyxkuPDBRDu7ikInp3JkqLfojQ_tVXeVmLKBxbP3qew" />
                 <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">DeepRidge & TechLink Launch OceanLab™</h3>
-                <p className="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
+                <p className="text-slate-600 text-sm mb-6 leading-relaxed">
                   A first-of-its-kind initiative aimed to accelerate the development of advanced subsea completion technologies for deepwater environments.
                 </p>
                 <Link className="inline-flex items-center text-primary font-bold text-sm tracking-wide group/link" href="/news/deepridge-techlink-launch-oceanlab">
@@ -109,14 +109,14 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="group bg-slate-50 dark:bg-slate-900 border border-red-500 dark:border-red-500 transition-transform hover:-translate-y-1">
+            <div className="group bg-slate-50 border border-red-500 transition-transform hover:-translate-y-1">
               <div className="relative overflow-hidden aspect-video">
                 <img alt="Well management" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfsiunOXiHG10aC5hDMf7CC8nm3XKUlqsCJXco0A-6GlvLmGQY5BL3MSROSFsAlcwQxt1lT1ypiDhrMzEp8ikYHV95Z4Dvjtc4jMqPU4fEoPIGM9ljUjyX9FTKU6EtMVbiTkCsB4TTEQ56VAxIgB8n0ULI0Ju-kHNpx_x6rXMuI_-31M0QaBdQ_AQcUlQtZicVioVqiUYcCr13UVwZBEXOSyToF62wpTd1phz1qCsSRSg3ti3yk445WJDxKueN4IRFZ5M1AsmdWA" />
                 <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Sustainable Decommissioning Strategies</h3>
-                <p className="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
+                <p className="text-slate-600 text-sm mb-6 leading-relaxed">
                   Well abandonment is the final chapter in an asset's lifecycle. It requires precision and planning to meet environmental standards and seal integrity.
                 </p>
                 <Link className="inline-flex items-center text-primary font-bold text-sm tracking-wide group/link" href="/news/sustainable-decommissioning-strategies">
@@ -125,14 +125,14 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="group bg-slate-50 dark:bg-slate-900 border border-red-500 dark:border-red-500 transition-transform hover:-translate-y-1">
+            <div className="group bg-slate-50 border border-red-500 transition-transform hover:-translate-y-1">
               <div className="relative overflow-hidden aspect-video">
                 <img alt="Engineers" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvqvwcnibcJpl_aiRB9XplF28ytT_sAiOoqBTTbuwHksL65J5o5LOLNMyLr5locV4SRoWjHkUilnc-4Q-tRPzm5iLeyp_G4_iPB4tgEezhS1-jTHZb_JIOw7g9yMORBYPgkCCleFgRue6DzLazPBpBqJsQQYz3XGFi-ZUAwu9u5g8Y6PbTrgqWVo_cFN-ASbS9-MHw4H77XLaJGlElwEkgj6kOu1_4rpuoWd1qnVNPk6En2avUP0EzE3fLZXyXRRCJtbzBXJqBAQ" />
                 <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">The 2025 Energy Efficiency Report</h3>
-                <p className="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
+                <p className="text-slate-600 text-sm mb-6 leading-relaxed">
                   From groundbreaking launches to digital twins, this year brought smarter, more efficient performance across our entire reservoir lifecycle.
                 </p>
                 <Link className="inline-flex items-center text-primary font-bold text-sm tracking-wide group/link" href="/news/2025-energy-efficiency-report">
@@ -143,12 +143,12 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 text-center">
-            <button className="px-8 py-3 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold text-sm hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors uppercase tracking-wider">See More Innovations</button>
+            <button className="px-8 py-3 bg-slate-100 text-slate-700 font-bold text-sm hover:bg-slate-200 transition-colors uppercase tracking-wider">See More Innovations</button>
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col md:flex-row h-auto md:h-[600px] border-y border-red-500 dark:border-red-500">
+      <section className="flex flex-col md:flex-row h-auto md:h-[600px] border-y border-red-500">
         <div className="relative flex-1 group overflow-hidden ">
           <div className="absolute inset-0 bg-black"></div>
           <div className="relative h-full p-12 flex flex-col justify-center max-w-xl">
@@ -162,8 +162,8 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-1/3 bg-slate-50 dark:bg-slate-900 p-12 border-l border-red-500 dark:border-red-500">
-          <h3 className="text-xl font-bold mb-8 uppercase tracking-widest text-slate-500 dark:text-slate-400">News Feed</h3>
+        <div className="w-full md:w-1/3 bg-slate-50 p-12 border-l border-red-500">
+          <h3 className="text-xl font-bold mb-8 uppercase tracking-widest text-slate-500">News Feed</h3>
           <div className="space-y-8">
             <Link href="/news/nex-gen-hub-offshore-hydrogen" className="group cursor-pointer block">
               <p className="text-xs text-slate-400 mb-1 font-bold">JAN 15, 2025</p>
@@ -189,7 +189,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24 bg-background-light dark:bg-background-dark">
+      <section className="py-24 bg-background-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 mb-12">
             <div className="w-8 h-1 bg-primary"></div>
@@ -202,7 +202,7 @@ export default function Home() {
               </div>
               <div className="border-l-2 border-red-500 pl-4">
                 <h4 className="text-xl font-bold mb-4">Autonomous Rig Operations: Brazil Presalt</h4>
-                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+                <p className="text-sm text-slate-600 leading-relaxed mb-6">
                   Deploying AI-driven drilling systems to maximize ROP and safety in challenging deepwater formations.
                 </p>
                 <Link className="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2" href="/news/autonomous-rig-operations-brazil">Explore <span className="material-icons-outlined text-xs">arrow_forward</span></Link>
@@ -214,7 +214,7 @@ export default function Home() {
               </div>
               <div className="border-l-2 border-red-500 pl-4">
                 <h4 className="text-xl font-bold mb-4">North Sea Life Extension Phase III</h4>
-                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+                <p className="text-sm text-slate-600 leading-relaxed mb-6">
                   A tailored subsea intervention solution that extended the life of mature gas wells by over 15 years.
                 </p>
                 <Link className="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2" href="/news/north-sea-life-extension">Explore <span className="material-icons-outlined text-xs">arrow_forward</span></Link>
@@ -226,7 +226,7 @@ export default function Home() {
               </div>
               <div className="border-l-2 border-red-500 pl-4">
                 <h4 className="text-xl font-bold mb-4">Hywind Tampen: Floating Wind Excellence</h4>
-                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+                <p className="text-sm text-slate-600 leading-relaxed mb-6">
                   Powering oil and gas platforms with clean, floating wind energy to drastically reduce carbon footprint.
                 </p>
                 <Link className="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2" href="/news/hywind-tampen-floating-wind">Explore <span className="material-icons-outlined text-xs">arrow_forward</span></Link>
@@ -234,7 +234,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 text-center">
-            <button className="px-8 py-3 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold text-sm hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors uppercase tracking-wider">See More Projects</button>
+            <button className="px-8 py-3 bg-slate-100 text-slate-700 font-bold text-sm hover:bg-slate-200 transition-colors uppercase tracking-wider">See More Projects</button>
           </div>
         </div>
       </section>
@@ -261,11 +261,11 @@ export default function Home() {
 
 
 
-      <div className="fixed bottom-6 left-6 max-w-sm bg-white dark:bg-slate-900 p-6 shadow-2xl border border-red-500 dark:border-red-500 z-[100] transition-transform duration-500" id="cookie-banner" style={{ display: 'none' }}> {/* Hidden by default for now, logic to be added if needed */}
+      <div className="fixed bottom-6 left-6 max-w-sm bg-white p-6 shadow-2xl border border-red-500 z-[100] transition-transform duration-500" id="cookie-banner" style={{ display: 'none' }}> {/* Hidden by default for now, logic to be added if needed */}
         <button className="absolute top-4 right-4 text-slate-400 hover:text-slate-600" onClick={() => (document.getElementById('cookie-banner') as HTMLElement).style.display = 'none'}>
           <span className="material-icons-outlined text-sm">close</span>
         </button>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+        <p className="text-sm text-slate-600 mb-4 leading-relaxed">
           This website uses cookies to enhance your experience and analyze traffic. To learn more, view our <a className="text-primary underline" href="#">Privacy Policy</a>.
         </p>
         <button className="w-full bg-primary hover:bg-primary-hover text-white font-bold py-2 text-sm transition-colors uppercase tracking-widest" onClick={() => (document.getElementById('cookie-banner') as HTMLElement).style.display = 'none'}>Accept All</button>

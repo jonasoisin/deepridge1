@@ -7,7 +7,7 @@ import { GlobalLocations } from "@/components/contact/GlobalLocations";
 
 export default function Contact() {
     return (
-        <main className="min-h-screen bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
+        <main className="min-h-screen bg-background-light text-slate-900 font-sans transition-colors duration-300">
 
             <ContactHero />
             <InquiryForm />
