@@ -16,12 +16,11 @@ export default function Services() {
                     <div className="max-w-3xl">
                         <div className="border-l-4 border-red-500 pl-6 mb-8 border-red-500">
                             <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight font-display">
-                                Powering the <br />
-                                <span className="text-primary">Global Transition</span>
+                                Services <br />
+                                <span className="text-primary">What we do.</span>
                             </h1>
-                            <p className="text-base sm:text-xl text-slate-200 mb-6 sm:mb-8 max-w-xl">
-                                DeepRidge Energy delivers integrated engineering solutions
-                                across Hywind offshore wind and advanced natural gas production.
+                            <p className="text-base sm:text-lg text-slate-200 mb-6 sm:mb-8 max-w-2xl leading-relaxed">
+                                Our industry is experiencing fundamental challenges. From climate change and geopolitics to the energy markets, we are facing new realities. Some see them as threats. In DeepRidge Energy, we believe our job is to turn them into opportunities. That's why we're looking for new ways to utilise our expertise in the energy industry, exploring opportunities in new energy as well as driving innovation in oil and gas around the world. We know that the future has to be low carbon. Our ambition is to be the world's most carbon-efficient oil and gas producer, as well as driving innovation in offshore wind and renewable energy.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link
@@ -33,12 +32,7 @@ export default function Services() {
                                         arrow_forward
                                     </span>
                                 </Link>
-                                <Link
-                                    href="#"
-                                    className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-red-500/30 px-6 sm:px-8 py-3 sm:py-4 font-bold uppercase tracking-widest text-xs sm:text-sm transition-all"
-                                >
-                                    Our Portfolio
-                                </Link>
+
                             </div>
                         </div>
                     </div>

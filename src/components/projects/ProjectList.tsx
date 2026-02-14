@@ -52,15 +52,7 @@ export function ProjectList() {
                         <div className="flex items-center gap-2 cursor-pointer hover:text-primary">
                             Region: Global <ChevronDown className="w-4 h-4" />
                         </div>
-                        <div className="w-px h-4 bg-gray-300" />
-                        <div className="flex gap-2">
-                            <button className="p-2 bg-gray-100 hover:bg-gray-200 rounded-sm text-secondary">
-                                <LayoutGrid className="w-4 h-4" />
-                            </button>
-                            <button className="p-2 bg-white hover:bg-gray-50 rounded-sm text-gray-400">
-                                <MapIcon className="w-4 h-4" />
-                            </button>
-                        </div>
+
                     </div>
                 </div>
             </div>

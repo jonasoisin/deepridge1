@@ -24,15 +24,7 @@ export function CareerCTA() {
                         fill
                         className="object-cover"
                     />
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center group">
-                        <button className="flex items-center gap-4 bg-black/40 backdrop-blur-md p-6 rounded-full border border-red-500/20 hover:scale-110 transition-transform">
-                            <PlayCircle className="w-12 h-12 text-white" />
-                            <div className="text-left text-white">
-                                <p className="text-xs font-bold uppercase tracking-widest opacity-70">DeepRidge Story</p>
-                                <p className="text-xl font-display">Life at DeepRidge</p>
-                            </div>
-                        </button>
-                    </div>
+
                 </div>
             </div>
         </section>

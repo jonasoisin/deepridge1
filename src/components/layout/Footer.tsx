@@ -20,11 +20,7 @@ export function Footer() {
                         <p className="text-slate-400 text-sm leading-relaxed mb-8">
                             Engineering sustainable energy solutions for a cleaner, more reliable future. Leading the way in Hywind and advanced natural gas technologies.
                         </p>
-                        <div className="flex gap-4">
-                            <Link className="text-slate-400 hover:text-red-500 transition-colors" href="#"><span className="material-icons-outlined">facebook</span></Link>
-                            <Link className="text-slate-400 hover:text-red-500 transition-colors" href="#"><span className="material-icons-outlined">language</span></Link>
-                            <Link className="text-slate-400 hover:text-red-500 transition-colors" href="#"><span className="material-icons-outlined">alternate_email</span></Link>
-                        </div>
+
                     </div>
 
                     <div>
@@ -37,7 +33,7 @@ export function Footer() {
                         <Link href="/support" className="group block mb-6"><h4 className="font-bold text-sm uppercase tracking-widest text-red-500 group-hover:text-red-400 transition-colors">Support</h4></Link>
                         <ul className="space-y-4 text-sm text-slate-400">
                             <li><Link className="hover:text-red-500 transition-colors" href="/contact">Contact Support</Link></li>
-                            <li><Link className="hover:text-red-500 transition-colors" href="/support/global-locations">Global Locations</Link></li>
+
                             <li><Link className="hover:text-red-500 transition-colors" href="/support/ethics-compliance">Ethics & Compliance</Link></li>
                             <li><Link className="hover:text-red-500 transition-colors" href="/legal/privacy-policy">Privacy Policy</Link></li>
                         </ul>

@@ -17,7 +17,7 @@ export function ContactHero() {
             </div>
 
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
-                <div className="border-l-4 border-red-500 pl-6">
+                <div className="pl-0">
                     <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-4">Contact Us</h1>
                     <p className="text-xl text-gray-300 max-w-2xl">
                         Partner with DeepRidge Energy for innovative solutions in Hywind and Natural Gas. Our global team is ready to support your next breakthrough.

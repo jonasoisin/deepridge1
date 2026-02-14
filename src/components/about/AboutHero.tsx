@@ -21,7 +21,7 @@ export function AboutHero() {
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <button className="bg-primary hover:bg-red-700 text-white px-8 py-3 font-bold uppercase tracking-wider transition-all rounded-sm">Explore Our Impact</button>
-                        <button className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-3 font-bold uppercase tracking-wider transition-all rounded-sm">Watch Our Story</button>
+
                     </div>
                 </div>
             </div>

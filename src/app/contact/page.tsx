@@ -2,8 +2,8 @@
 
 import { ContactHero } from "@/components/contact/ContactHero";
 import { InquiryForm } from "@/components/contact/InquiryForm";
-import { CareerCTA } from "@/components/contact/CareerCTA";
-import { GlobalLocations } from "@/components/contact/GlobalLocations";
+
+
 
 export default function Contact() {
     return (
@@ -11,8 +11,8 @@ export default function Contact() {
 
             <ContactHero />
             <InquiryForm />
-            <CareerCTA />
-            <GlobalLocations />
+
+
         </main>
     );
 }
