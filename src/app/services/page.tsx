@@ -254,9 +254,7 @@ export default function Services() {
                                         New milestone reached in offshore wind deployment with the
                                         installation of five additional floating units.
                                     </p>
-                                    <button className="bg-white text-slate-900 px-6 py-3 font-bold text-sm uppercase tracking-wider hover:bg-primary hover:text-white transition-colors">
-                                        Read Full Release
-                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -292,12 +290,7 @@ export default function Services() {
                                     </h4>
                                 </div>
                             </div>
-                            <button className="mt-12 text-sm font-bold uppercase tracking-widest text-primary flex items-center hover:translate-x-1 transition-transform">
-                                See All News{" "}
-                                <span className="material-icons-outlined ml-2 text-sm">
-                                    arrow_forward
-                                </span>
-                            </button>
+
                         </div>
                     </div>
                 </div>
@@ -339,12 +332,7 @@ export default function Services() {
                         >
                             Request a Consultation
                         </a>
-                        <Link
-                            href="#"
-                            className="text-white hover:text-primary transition-colors font-bold uppercase tracking-widest border-b-2 border-red-500 pb-1"
-                        >
-                            Download Services Catalog
-                        </Link>
+
                     </div>
                 </div>
             </section>

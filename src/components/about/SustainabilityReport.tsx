@@ -23,9 +23,7 @@ export function SustainabilityReport() {
                                 <span className="text-xs font-bold uppercase tracking-widest text-slate-500">Renewable Capacity</span>
                             </div>
                         </div>
-                        <button className="flex items-center gap-4 text-sm font-bold uppercase tracking-widest hover:text-primary transition-colors">
-                            Download ESG Report <span className="material-icons-outlined">download</span>
-                        </button>
+
                     </div>
                     <div className="bg-slate-800/50 p-8 border border-red-500/10">
                         <h3 className="font-display font-bold text-xl uppercase mb-8">Latest Updates</h3>

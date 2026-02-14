@@ -65,15 +65,6 @@ export function Navbar() {
                         >
                             Contact
                         </Link>
-                        <Link
-                            href="/news"
-                            className={`transition-colors ${pathname === "/news"
-                                ? "text-primary"
-                                : "text-slate-900 hover:text-primary"
-                                }`}
-                        >
-                            News
-                        </Link>
                     </div>
                     <div className="flex items-center space-x-4">
                         <button className="p-2 hover:bg-slate-100 rounded-full text-slate-900 transition-colors">

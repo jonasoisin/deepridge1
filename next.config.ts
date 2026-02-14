@@ -15,6 +15,18 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "lh4.googleusercontent.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.mbenergy.com",
+      },
+      {
+        protocol: "https",
+        hostname: "d2cbg94ubxgsnp.cloudfront.net",
+      },
+      {
+        protocol: "https",
+        hostname: "media.istockphoto.com",
+      },
     ],
   },
 };

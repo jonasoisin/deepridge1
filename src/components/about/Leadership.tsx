@@ -14,7 +14,7 @@ export function Leadership() {
                         <img alt="CEO William Reed" className="w-24 h-24 rounded-full object-cover mb-6 grayscale hover:grayscale-0 transition-all border-2 border-red-500/20" src="/IMG_3154.PNG" />
                         <h4 className="font-display font-bold text-xl mb-1">William Reed</h4>
                         <p className="text-primary font-bold text-sm uppercase mb-4 tracking-widest">Chief Executive Officer</p>
-                        <p className="text-slate-600 text-sm leading-relaxed mb-6">Our advisory clients rely on our models to give them a competitive advantage in negotiation. Our models must therefore be robust and flexible but above all clear and transparent. Too often modelling is left to the least experienced team member; at Dael Energy we give modelling to the senior level management it requires.</p>
+                        <p className="text-slate-600 text-sm leading-relaxed mb-6">Our advisory clients rely on our models to give them a competitive advantage in negotiation. Our models must therefore be robust and flexible but above all clear and transparent. Too often modelling is left to the least experienced team member; at DeepRidge Energy we give modelling to the senior level management it requires.</p>
                     </div>
                 </div>
             </div>

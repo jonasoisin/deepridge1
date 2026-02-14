@@ -34,45 +34,22 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center py-20 md:py-0">
           <div className="max-w-2xl border-l-4 border-red-500 pl-8 py-4 border-red-500">
             <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4 md:mb-6">
-              Powering the <br />Future of Energy
+              Welcome...<br />to DeepRidge Energy.
             </h1>
             <p className="text-base sm:text-xl text-slate-200 mb-6 md:mb-10 leading-relaxed max-w-lg">
-              As an industry leader in Hywind and Natural Gas, we collaborate and engineer solutions to maximize asset value and drive global sustainability.
+              Where we energize the lives of millions of people.
             </p>
-            <button className="bg-red-500 text-white px-6 sm:px-10 py-3 sm:py-4 text-sm sm:text-base font-bold tracking-wider hover:bg-slate-100 transition-all flex items-center gap-2">
-              EXPLORE SOLUTIONS
+            <Link href="/about" className="bg-red-500 text-white px-6 sm:px-10 py-3 sm:py-4 text-sm sm:text-base font-bold tracking-wider hover:bg-slate-100 hover:text-red-500 transition-all flex items-center gap-2 w-fit">
+              Learn more.
               <span className="material-icons-outlined">arrow_forward</span>
-            </button>
+            </Link>
           </div>
-          <div className="mt-10 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-5xl">
-            <div className="flex items-start gap-4 text-white/90">
-              <span className="material-icons-outlined p-2 border border-red-500/20 rounded-full">handshake</span>
-              <div>
-                <h3 className="font-bold text-lg">Collaboration</h3>
-                <p className="text-sm text-white/70">Partnering for excellence</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4 text-white/90">
-              <span className="material-icons-outlined p-2 border border-red-500/20 rounded-full">verified_user</span>
-              <div>
-                <h3 className="font-bold text-lg">Sustainability</h3>
-                <p className="text-sm text-white/70">Net-zero transition leader</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4 text-white/90">
-              <span className="material-icons-outlined p-2 border border-red-500/20 rounded-full">psychology</span>
-              <div>
-                <h3 className="font-bold text-lg">Innovation</h3>
-                <p className="text-sm text-white/70">Engineering tomorrow</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4 text-white/90">
-              <span className="material-icons-outlined p-2 border border-red-500/20 rounded-full">settings_input_component</span>
-              <div>
-                <h3 className="font-bold text-lg">Reliability</h3>
-                <p className="text-sm text-white/70">Performance you can trust</p>
-              </div>
-            </div>
+          <div className="col-span-2 md:col-span-4 text-white">
+            <h3 className="text-2xl font-bold mb-4">On track to increase returns and grow production...</h3>
+            <p className="text-lg font-semibold mb-4 text-red-500">Can an oil and gas company be part of a sustainable energy future?</p>
+            <p className="text-sm text-slate-300 leading-relaxed max-w-3xl">
+              We're working actively to reduce climate emissions, put a price on carbon, and benefit societies around the world. We aim to be the world's most carbon-efficient oil and gas producer, and are investing actively in renewable.
+            </p>
           </div>
         </div>
       </header>
@@ -86,174 +63,133 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 mb-12">
-            <div className="w-8 h-1 bg-primary"></div>
-            <h2 className="text-3xl font-bold tracking-tight">Explore our latest innovations</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group bg-slate-50 border border-red-500 transition-transform hover:-translate-y-1">
-              <div className="relative overflow-hidden aspect-video">
-                <img alt="Innovation center" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9zcPCQmXc_YFcFeLFnQUPRzFKN9Mcz3ZbyY-koIp0DvAZ4kKl1DpShovAhscx0sO75ds-WhFVkuHvPDE2ndrWHSkdUlROMSOZCFcXwtrwI2lxuSXZPfzRxyShXuOHWqMr5O347-kPHF3OaPplJTUw0cat8B-dvwSwV3QcDc1UNh9nR067_pMWcPTAyZpe35tf2amx74kZOYhySx6xxjl_ICk_tdHOVILgyxkuPDBRDu7ikInp3JkqLfojQ_tVXeVmLKBxbP3qew" />
-                <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">DeepRidge & TechLink Launch OceanLab™</h3>
-                <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-                  A first-of-its-kind initiative aimed to accelerate the development of advanced subsea completion technologies for deepwater environments.
-                </p>
-                <Link className="inline-flex items-center text-primary font-bold text-sm tracking-wide group/link" href="/news/deepridge-techlink-launch-oceanlab">
-                  EXPLORE
-                  <span className="material-icons-outlined text-sm ml-1 transform group-hover/link:translate-x-1 transition-transform">chevron_right</span>
-                </Link>
-              </div>
-            </div>
-            <div className="group bg-slate-50 border border-red-500 transition-transform hover:-translate-y-1">
-              <div className="relative overflow-hidden aspect-video">
-                <img alt="Well management" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfsiunOXiHG10aC5hDMf7CC8nm3XKUlqsCJXco0A-6GlvLmGQY5BL3MSROSFsAlcwQxt1lT1ypiDhrMzEp8ikYHV95Z4Dvjtc4jMqPU4fEoPIGM9ljUjyX9FTKU6EtMVbiTkCsB4TTEQ56VAxIgB8n0ULI0Ju-kHNpx_x6rXMuI_-31M0QaBdQ_AQcUlQtZicVioVqiUYcCr13UVwZBEXOSyToF62wpTd1phz1qCsSRSg3ti3yk445WJDxKueN4IRFZ5M1AsmdWA" />
-                <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Sustainable Decommissioning Strategies</h3>
-                <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-                  Well abandonment is the final chapter in an asset's lifecycle. It requires precision and planning to meet environmental standards and seal integrity.
-                </p>
-                <Link className="inline-flex items-center text-primary font-bold text-sm tracking-wide group/link" href="/news/sustainable-decommissioning-strategies">
-                  EXPLORE
-                  <span className="material-icons-outlined text-sm ml-1 transform group-hover/link:translate-x-1 transition-transform">chevron_right</span>
-                </Link>
-              </div>
-            </div>
-            <div className="group bg-slate-50 border border-red-500 transition-transform hover:-translate-y-1">
-              <div className="relative overflow-hidden aspect-video">
-                <img alt="Engineers" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvqvwcnibcJpl_aiRB9XplF28ytT_sAiOoqBTTbuwHksL65J5o5LOLNMyLr5locV4SRoWjHkUilnc-4Q-tRPzm5iLeyp_G4_iPB4tgEezhS1-jTHZb_JIOw7g9yMORBYPgkCCleFgRue6DzLazPBpBqJsQQYz3XGFi-ZUAwu9u5g8Y6PbTrgqWVo_cFN-ASbS9-MHw4H77XLaJGlElwEkgj6kOu1_4rpuoWd1qnVNPk6En2avUP0EzE3fLZXyXRRCJtbzBXJqBAQ" />
-                <div className="absolute top-0 left-0 w-1 h-full bg-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">The 2025 Energy Efficiency Report</h3>
-                <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-                  From groundbreaking launches to digital twins, this year brought smarter, more efficient performance across our entire reservoir lifecycle.
-                </p>
-                <Link className="inline-flex items-center text-primary font-bold text-sm tracking-wide group/link" href="/news/2025-energy-efficiency-report">
-                  EXPLORE
-                  <span className="material-icons-outlined text-sm ml-1 transform group-hover/link:translate-x-1 transition-transform">chevron_right</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="mt-12 text-center">
-            <button className="px-8 py-3 bg-slate-100 text-slate-700 font-bold text-sm hover:bg-slate-200 transition-colors uppercase tracking-wider">See More Innovations</button>
-          </div>
-        </div>
-      </section>
 
-      <section className="flex flex-col md:flex-row h-auto md:h-[600px] border-y border-red-500">
-        <div className="relative flex-1 group overflow-hidden ">
-          <div className="absolute inset-0 bg-black"></div>
-          <div className="relative h-full p-12 flex flex-col justify-center max-w-xl">
-            <div className="w-12 h-1 bg-primary mb-6"></div>
-            <h2 className="text-4xl font-bold text-white mb-6 leading-tight">DeepRidge Announces Fourth Quarter 2024 Performance Results</h2>
-            <p className="text-slate-200 mb-10 leading-relaxed">
-              Continuing our trend of sustainable growth, DeepRidge reported record net income as we expand our Hywind footprint across the North Sea.
-            </p>
-            <Link href="/news/deepridge-q4-2024-results" className="bg-white text-secondary px-8 py-4 font-bold tracking-wider w-fit hover:bg-slate-100 transition-all uppercase">
-              Read Press Release
-            </Link>
-          </div>
-        </div>
-        <div className="w-full md:w-1/3 bg-slate-50 p-12 border-l border-red-500">
-          <h3 className="text-xl font-bold mb-8 uppercase tracking-widest text-slate-500">News Feed</h3>
-          <div className="space-y-8">
-            <Link href="/news/nex-gen-hub-offshore-hydrogen" className="group cursor-pointer block">
-              <p className="text-xs text-slate-400 mb-1 font-bold">JAN 15, 2025</p>
-              <h4 className="font-bold text-sm leading-snug group-hover:text-primary transition-colors">DeepRidge and GlobalWind Launch NEX-Gen Hub to Advance Offshore Hydrogen</h4>
-            </Link>
-            <Link href="/news/vp-sustainable-development" className="group cursor-pointer block">
-              <p className="text-xs text-slate-400 mb-1 font-bold">JAN 12, 2025</p>
-              <h4 className="font-bold text-sm leading-snug group-hover:text-primary transition-colors">Executive Board Appoints New VP of Sustainable Development</h4>
-            </Link>
-            <Link href="/news/hywind-pilot-milestone" className="group cursor-pointer block">
-              <p className="text-xs text-slate-400 mb-1 font-bold">JAN 08, 2025</p>
-              <h4 className="font-bold text-sm leading-snug group-hover:text-primary transition-colors">Hywind Pilot Reaches Milestone: Over 500 GWh Generated in First Phase</h4>
-            </Link>
-            <Link href="/news/smartgrid-integration-eastern-hemisphere" className="group cursor-pointer block">
-              <p className="text-xs text-slate-400 mb-1 font-bold">JAN 04, 2025</p>
-              <h4 className="font-bold text-sm leading-snug group-hover:text-primary transition-colors">SmartGrid Integration Successfully Deployed in Eastern Hemisphere</h4>
-            </Link>
-          </div>
-          <Link className="inline-flex items-center text-primary font-bold text-sm tracking-widest mt-12 group" href="/news">
-            SEE ALL NEWS
-            <span className="material-icons-outlined text-sm ml-2 transform group-hover:translate-x-1 transition-transform">chevron_right</span>
-          </Link>
-        </div>
-      </section>
 
       <section className="py-24 bg-background-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 mb-12">
-            <div className="w-8 h-1 bg-primary"></div>
-            <h2 className="text-3xl font-bold tracking-tight">Recent Global Projects</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="aspect-[4/3] mb-6 overflow-hidden">
-                <img alt="Remote Drilling" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXXHeiVUEUYqRjVguFmf-2VvJYoK_K5Ulw2en3ObD416y-_sWDRI96uE6xMc-ikoaw94eM8YMEzqOPSwi9v91A_4h6FRnUBu7v8-WE7Lq9BPtsxORQ-rVC1egUaCSKY14aR3SpZkuenYhdstTP1XmsJGncFecxH5kVLqv8YHVAFkM94kSHPe3RU5W2YcFUh54pNbZ57wsKgr66ydk_YU9mtz4vmCJe_iEdy9VaFzcdvHeYDSlSgrLBPpGcyDLFZ3lxPe9zpJmxfw" />
-              </div>
-              <div className="border-l-2 border-red-500 pl-4">
-                <h4 className="text-xl font-bold mb-4">Autonomous Rig Operations: Brazil Presalt</h4>
-                <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                  Deploying AI-driven drilling systems to maximize ROP and safety in challenging deepwater formations.
-                </p>
-                <Link className="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2" href="/news/autonomous-rig-operations-brazil">Explore <span className="material-icons-outlined text-xs">arrow_forward</span></Link>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+
+            {/* Open */}
+            <div className="bg-white p-8 border-t-4 border-red-500 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-2xl font-bold mb-6 text-slate-900">Open.</h3>
+              <ul className="space-y-4">
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">check_circle</span>
+                  <span>Pro-actively communicate in a clear truthful, direct and sincere way</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">groups</span>
+                  <span>Work together and share experiences</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">visibility</span>
+                  <span>Promote and value transparency.</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">chat</span>
+                  <span>Say what you mean, and do what you say</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">balance</span>
+                  <span>Stand up for what you believe is just and good.</span>
+                </li>
+              </ul>
             </div>
-            <div className="group">
-              <div className="aspect-[4/3] mb-6 overflow-hidden">
-                <img alt="Subsea Installation" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY1Wv9TVwghb86a39X17ywzTCt7dT8tQ1aGAw9UUVLLWlxfCHP7J0Joqt6KRO4VFxeL6UuiXQuepb6tUCb_BRFtX-HmYqBtqkcqjZsWEdlD0paPjnmtr1OVk0Q7pbd57SJNbLMUrA2_HGqZBwCeMxt83BdGBMQLSAIg4DVgdLli7PfgMr5ThOzgSaXVBelOJBVY5t4BGb6E5iaQhLdZCVvOeQFo9vzobq1bnfUe5d8IcNvR56MusA1DG6cfchKrXswmjgovMWGPA" />
-              </div>
-              <div className="border-l-2 border-red-500 pl-4">
-                <h4 className="text-xl font-bold mb-4">North Sea Life Extension Phase III</h4>
-                <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                  A tailored subsea intervention solution that extended the life of mature gas wells by over 15 years.
-                </p>
-                <Link className="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2" href="/news/north-sea-life-extension">Explore <span className="material-icons-outlined text-xs">arrow_forward</span></Link>
-              </div>
+
+            {/* Trust */}
+            <div className="bg-white p-8 border-t-4 border-red-500 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-2xl font-bold mb-6 text-slate-900">Trust.</h3>
+              <ul className="space-y-4">
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">volunteer_activism</span>
+                  <span>Believe in your colleague's capabilities and competences.</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">bolt</span>
+                  <span>Empower yourself and your colleagues to work towards our strategic goals</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">handshake</span>
+                  <span>Respect that the value of your contributions depends on the contributions from others.</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">verified</span>
+                  <span>Set high standards for yourself and your colleagues</span>
+                </li>
+              </ul>
             </div>
-            <div className="group">
-              <div className="aspect-[4/3] mb-6 overflow-hidden">
-                <img alt="Hywind Platform" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnJAamH_Wp1xKDWC-HAknse8sDf1lCuXXZQvtlKH23d2QZ1ev_UvNYxL8PBnlOwN0xMRIsUFWHhXy8UoaB2169D2LEFuc_NaApxtLuf76-a9Y_XW00_nIBzcHQd8L2anVw1l26ABLwoaHmsrNiCBloUu_-Ul7L8THyYxihIqcuz_tw-y0Yo8t5jFRfDxGOMnkt8ZYtfHqHNek1IrNtiIQjG1JtOsg1EsGje3RnJ84cMpJLungJU7UjctjQVH9gaARUctKx_fDkQw" />
-              </div>
-              <div className="border-l-2 border-red-500 pl-4">
-                <h4 className="text-xl font-bold mb-4">Hywind Tampen: Floating Wind Excellence</h4>
-                <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                  Powering oil and gas platforms with clean, floating wind energy to drastically reduce carbon footprint.
-                </p>
-                <Link className="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2" href="/news/hywind-tampen-floating-wind">Explore <span className="material-icons-outlined text-xs">arrow_forward</span></Link>
-              </div>
+
+            {/* Integrity */}
+            <div className="bg-white p-8 border-t-4 border-red-500 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-2xl font-bold mb-6 text-slate-900">Integrity.</h3>
+              <ul className="space-y-4">
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">shield</span>
+                  <span>Be ethically unyielding and honest</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">gavel</span>
+                  <span>Accept that you are empowered and have influence over our decisions and actions</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">assignment_turned_in</span>
+                  <span>Take responsibility for your actions and deliver on promises</span>
+                </li>
+                <li className="flex gap-3 text-slate-600 text-sm leading-relaxed">
+                  <span className="material-icons-outlined text-red-500 shrink-0 text-lg">loyalty</span>
+                  <span>Act decisively and be loyal to decisions</span>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div className="mt-12 text-center">
-            <button className="px-8 py-3 bg-slate-100 text-slate-700 font-bold text-sm hover:bg-slate-200 transition-colors uppercase tracking-wider">See More Projects</button>
+
           </div>
         </div>
       </section>
 
-      <section className="relative h-[450px] flex items-center">
-        <div className="absolute inset-0 bg-black"></div>
+      <section className="relative h-[600px] flex items-center">
+        <div className="absolute inset-0 bg-black">
+          <img alt="Oil refinery" className="w-full h-full object-cover opacity-40" src="https://media.istockphoto.com/id/484834404/photo/oil-refinery.jpg?s=612x612&w=0&k=20&c=QO1-in3-u-WEFhVjqkzuKrqxpSbfbKXxhvSYP0fEGPA=" />
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
             <div className="w-12 h-1 bg-primary mb-6"></div>
-            <h2 className="text-4xl font-bold text-red-500 mb-6">Join the Energy Revolution</h2>
-            <p className="text-white text-lg mb-10">
-              Build a career that matters. At DeepRidge, we are looking for the next generation of engineers, thinkers, and doers to reshape the global energy landscape.
+            <h2 className="text-4xl font-bold text-red-500 mb-6">Energy for life</h2>
+            <p className="text-white text-lg mb-4">
+              In all our business activities we comply with applicable laws, act in an ethical, sustainable and socially responsible manner, practise good corporate governance and respect internationally recognised human rights.
             </p>
-            <div className="flex flex-wrap gap-4">
-              <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 font-bold tracking-wider transition-all uppercase">Find Your Role</button>
-              <Link href="/about" className="border-2 border-red-500 text-white hover:bg-red-500 hover:text- px-8 py-4 font-bold tracking-wider transition-all uppercase flex items-center gap-2">
-                <span className="material-icons-outlined">play_circle</span>
-                Our Story
+            <p className="text-slate-300 mb-10 text-sm">
+              Discover how we're innovating in oil and gas energy.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="flex items-center gap-4 mb-6">
+                <span className="text-xs font-bold text-red-500 tracking-widest uppercase border border-red-500 px-3 py-1">Ongoing Project</span>
+              </div>
+              <h2 className="text-4xl font-bold mb-6 text-slate-900">Oil refining.</h2>
+              <div className="prose prose-slate text-slate-600">
+                <p className="mb-4">
+                  DeepRidge Energy is capable of carrying out high volumes of oil refining. In recent years, the Company's refining activities have been focused on meeting the market demand for quality petroleum products.
+                </p>
+                <p className="mb-4">
+                  Over a number of years, DeepRidge Energy has been consistently implementing the modernization program for refineries, which has improved the quality of its products and increased its competitiveness.
+                </p>
+                <p className="mb-8">
+                  This is the most ambitious program for the modernization of oil refining capacities in the oil industry, which includes the fulfilment of the Company's obligations under the quadripartite agreement.
+                </p>
+              </div>
+              <Link href="/projects" className="bg-primary hover:bg-primary-hover text-white px-8 py-4 font-bold tracking-wider transition-all uppercase inline-flex items-center gap-2">
+                Find out more.
+                <span className="material-icons-outlined">arrow_forward</span>
               </Link>
+            </div>
+            <div className="relative h-[500px] overflow-hidden rounded-lg shadow-xl">
+              <img alt="Oil refinery modernization" className="w-full h-full object-cover" src="https://www.mbenergy.com/fileadmin/_processed_/0/5/csm_image_raffinerie_AdobeStock_202041790_Standardlizenz_2022-03-31_1920_3ce4ef600e.jpg" />
             </div>
           </div>
         </div>
