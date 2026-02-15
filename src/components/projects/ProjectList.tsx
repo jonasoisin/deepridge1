@@ -20,6 +20,16 @@ const projects = [
         ],
         image: "https://www.mbenergy.com/fileadmin/_processed_/0/5/csm_image_raffinerie_AdobeStock_202041790_Standardlizenz_2022-03-31_1920_3ce4ef600e.jpg",
     },
+    {
+        category: "Renewables",
+        location: "North Sea, Norway",
+        title: "Hywind Tampen",
+        stats: [
+            { label: "CAPACITY", value: "88 MW" },
+            { label: "CO2 REDUCTION", value: "200k tons/yr" }
+        ],
+        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD-95dvbjJwsmLWBdV_bTb6eSHeytAiZ9NwA8oaYoSFCzjxaaH0XwbCAYQrxdrWSToAbd0Bm2fNPqFZL9WuYyJTLOI9WDXxWds5WbjLsvfc9mSEB2pJk7Sf-a8n1BAmnDnQMbGXW0ZFhsa2HU_iCh5Sbllf8UWVZ56iP6wL5j3crzulhpRkWHDycpFD2sMi85zyb2mKN7ywEsw0wdHdotTEfPBeMTc7gFebvGhSHgThc_PpTqGaHJFAUXYcYwOdT-w7VYKh8hQs0w",
+    },
 ];
 
 export function ProjectList() {
@@ -34,7 +44,7 @@ export function ProjectList() {
             <div className="bg-white border-b border-red-500 sticky top-20 z-40">
                 <div className="container mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto">
-                        {(["All Projects", "Oil Refining"] as Category[]).map((cat) => (
+                        {(["All Projects", "Renewables", "Oil Refining"] as Category[]).map((cat) => (
                             <button
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
