@@ -62,11 +62,11 @@ export default function Services() {
                                         Hywind Offshore Solutions
                                     </h2>
                                     <p className="text-slate-600 leading-relaxed">
-                                        We are pioneers in floating wind technology, enabling energy
-                                        harvest in deep-water environments where traditional
-                                        fixed-bottom turbines cannot reach. Our Hywind solutions
-                                        maximize wind yield while minimizing environmental
-                                        footprint.
+                                        A few years ago, floating offshore wind was a distant dream symbolised by a solitary, small-scale Hywind turbine offshore. Today, it is the most viable and mature solution,
+                                        ready-for market. With Hywind, the world's first floating wind farm, we're unlocking the vast potential of floating offshore wind. We believe it's the next wave in renewable energy, and within the next decade, we aim to make foating wind a competitive renewable energy source.
+                                        DeepRidge Energy is the global leader in floating offshore wind:
+                                        Hywind is a great example of what we can achieve by combining our existing offshore expertise with new and available technologies and innovative minds. Thoroughly proven
+                                        through years of testing, it is the world's most viable floating wind turbine design consisting of a giant wind turbine placed on top of a floating vertical spar
                                     </p>
                                 </div>
                                 <ul className="space-y-4">
@@ -133,10 +133,11 @@ export default function Services() {
                                         Natural Gas Production
                                     </h2>
                                     <p className="text-slate-600 leading-relaxed">
-                                        Providing critical base-load energy through advanced
-                                        extraction and processing. We focus on low-emission
-                                        production techniques and efficient distribution networks to
-                                        bridge the gap to a renewable future.
+                                        Traditionally, most of DeepRidge's gas has been sold through long-term contracts to large European gas companies and suppliers. In the absence of a separate market price for gas, the sale price has often been
+                                        indexed to the price of oil.
+                                        In the USA, DeepRidge Energy has shares and production in three premium shale oil and gas plays. Gas is used for energy production, heating and industrial purposes. Through transport agreements to New York City and Toronto, residents can keep winter temperatures at bay with shale gas from the Marcellus field.
+
+                                        Through commercial negotiations with our counterparts, we have modernised most of our long-term contracts, and gradually moved away from oil indexing. The price of gas is now directly linked to the price in the market places.
                                     </p>
                                 </div>
                                 <ul className="space-y-4">
@@ -174,6 +175,101 @@ export default function Services() {
                                             <span className="font-bold block">Emissions Control</span>
                                             <span className="text-sm text-slate-500">
                                                 Methane capture and carbon sequestration technologies.
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="space-y-10">
+                            <div className="relative group overflow-hidden rounded-lg aspect-[16/9]">
+                                <img
+                                    alt="Offshore platform engineering"
+                                    className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAXIz_c0LagGiBx-_p5wiMMgv5xs-Py5teX1IN2AwUl7vrwC6yyTYH9eRpQpRBWNuZqiNcqDh4V8k2h-qdol0e9cqDdXai3VYWZIUDOD1hiECE8RzrEPh1gmvl4bQJuQ9LKCvNSrpH6cy_1SMEEyJtyv93cQT6gm9ALG3JnkcJ3c_cLPQyFZ7_VBF3NXB2o7Swuq_Yd5RFChTB5xgsbEcH6EUfvnxqyLSWxZ14mPvIm6UhLr7_drFOANmdq_ktpZGI7BcsVYy_Tg"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
+                                <div className="absolute bottom-6 left-6">
+                                    <span className="bg-primary text-white text-[10px] uppercase font-bold tracking-[0.2em] px-3 py-1">
+                                        Milestones
+                                    </span>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="border-l-4 border-red-500 pl-6 mb-6">
+                                    <h2 className="text-3xl font-bold mb-4 font-display">
+                                        Fields and platforms
+                                    </h2>
+                                    <p className="text-slate-600 leading-relaxed">
+                                        We're one of the world's largest offshore operators on the global continental shelf. This page is an overview of the fields we are currently developing, and those in operation - In Turkey, and around the world.
+                                        <br /><br />
+                                        Key milestones this year include:
+                                    </p>
+                                </div>
+                                <ul className="space-y-4">
+                                    <li className="flex items-start">
+                                        <span className="material-icons-outlined text-primary mr-3 text-xl">
+                                            construction
+                                        </span>
+                                        <div>
+                                            <span className="font-bold block">
+                                                The riser platform
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="material-icons-outlined text-primary mr-3 text-xl">
+                                            precision_manufacturing
+                                        </span>
+                                        <div>
+                                            <span className="font-bold block">
+                                                The drilling platform
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="material-icons-outlined text-primary mr-3 text-xl">
+                                            view_module
+                                        </span>
+                                        <div>
+                                            <span className="font-bold block">
+                                                Three steel jackets
+                                            </span>
+                                            <span className="text-sm text-slate-500">
+                                                (for the drilling platform, the processing platform, and the utility and living quarters)
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="material-icons-outlined text-primary mr-3 text-xl">
+                                            cable
+                                        </span>
+                                        <div>
+                                            <span className="font-bold block">
+                                                The bridge
+                                            </span>
+                                            <span className="text-sm text-slate-500">
+                                                Connecting the riser and drilling platforms
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="material-icons-outlined text-primary mr-3 text-xl">
+                                            timeline
+                                        </span>
+                                        <div>
+                                            <span className="font-bold block">
+                                                400 km of oil and gas pipelines
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="material-icons-outlined text-primary mr-3 text-xl">
+                                            electric_bolt
+                                        </span>
+                                        <div>
+                                            <span className="font-bold block">
+                                                200 km of power cables
                                             </span>
                                         </div>
                                     </li>
@@ -321,7 +417,7 @@ export default function Services() {
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
                         <a
-                            href="mailto:consult@deepridge.com"
+                            href="mailto:williamreed@deepridgeenergy.com"
                             className="bg-primary hover:bg-red-700 text-white px-10 py-4 font-bold uppercase tracking-widest transition-all"
                         >
                             Request a Consultation

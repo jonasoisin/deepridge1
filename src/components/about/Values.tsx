@@ -3,34 +3,30 @@ export function Values() {
     return (
         <section className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12">
-                    <div className="space-y-4 group">
-                        <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
-                            <span className="material-icons-outlined text-primary group-hover:text-white">handshake</span>
-                        </div>
-                        <h3 className="font-display font-bold text-xl uppercase tracking-wide">Collaboration</h3>
-                        <p className="text-slate-600">Forging long-term partnerships with communities and stakeholders to ensure mutual prosperity and energy security.</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div className="space-y-4">
+                        <h3 className="font-display font-bold text-2xl uppercase tracking-wide border-b-2 border-primary pb-2 inline-block">
+                            About us
+                        </h3>
+                        <p className="text-slate-600 leading-relaxed">
+                            We are DeepRidge Energy, a broad oil and gas energy company with a proud history. We are 2,000 committed colleagues developing oil, gas, wind and solar energy in more than 14 countries worldwide. We're one of the world's largest offshore operators, and a growing force in renewable energy. Driven by our international urge to explore beyond the horizon and dedication to safety, equality and sustainability, we're developing the energy of the future.
+                        </p>
                     </div>
-                    <div className="space-y-4 group">
-                        <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
-                            <span className="material-icons-outlined text-primary group-hover:text-white">verified_user</span>
-                        </div>
-                        <h3 className="font-display font-bold text-xl uppercase tracking-wide">Excellence</h3>
-                        <p className="text-slate-600">Our operational standards lead the industry, ensuring safety and precision in the most challenging environments.</p>
+                    <div className="space-y-4">
+                        <h3 className="font-display font-bold text-2xl uppercase tracking-wide border-b-2 border-primary pb-2 inline-block">
+                            DeepRidge Energy in brief
+                        </h3>
+                        <p className="text-slate-600 leading-relaxed">
+                            DeepRidge Energy is an international energy company present in more than 14 countries worldwide, including several of the world's most important oil and gas provinces. Founded in 1992 under the name DeepRidge Construction Company, we changed our name to DeepRidge Energy in 2010. Our headquarters is in Dallas, Texas USA, and we have over 2,000 employees.
+                        </p>
                     </div>
-                    <div className="space-y-4 group">
-                        <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
-                            <span className="material-icons-outlined text-primary group-hover:text-white">psychology</span>
-                        </div>
-                        <h3 className="font-display font-bold text-xl uppercase tracking-wide">Innovation</h3>
-                        <p className="text-slate-600">Pushing the boundaries of Hywind technology and decarbonizing natural gas production through R&D.</p>
-                    </div>
-                    <div className="space-y-4 group">
-                        <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
-                            <span className="material-icons-outlined text-primary group-hover:text-white">eco</span>
-                        </div>
-                        <h3 className="font-display font-bold text-xl uppercase tracking-wide">Responsibility</h3>
-                        <p className="text-slate-600">Environmental stewardship is at our core, committed to a net-zero future by 2050.</p>
+                    <div className="space-y-4">
+                        <h3 className="font-display font-bold text-2xl uppercase tracking-wide border-b-2 border-primary pb-2 inline-block">
+                            Who we are - our commitments
+                        </h3>
+                        <p className="text-slate-600 leading-relaxed">
+                            In all our business activities we comply with applicable laws, act in an ethical, sustainable and socially responsible manner, practise good corporate governance and respect internationally recognised human rights. We maintain an open dialogue on ethical issues - both internally and externally. Open, honest and accurate communication is essential to our integrity and business success.
+                        </p>
                     </div>
                 </div>
             </div>

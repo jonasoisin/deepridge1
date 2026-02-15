@@ -68,7 +68,7 @@ export function InquiryForm() {
                             ></textarea>
                         </div>
                         <Button
-                            className="bg-primary hover:bg-red-700 text-white font-bold py-4 px-10 transition-colors uppercase tracking-widest flex items-center gap-2 group h-auto rounded-sm"
+                            className="bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-10 transition-colors uppercase tracking-widest flex items-center gap-2 group h-auto rounded-sm"
                             type="submit"
                         >
                             Submit Request

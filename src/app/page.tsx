@@ -153,7 +153,9 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
             <div className="w-12 h-1 bg-primary mb-6"></div>
-            <h2 className="text-4xl font-bold text-red-500 mb-6">Energy for life</h2>
+            <Link href="/services">
+              <h2 className="text-4xl font-bold text-red-500 mb-6 hover:underline decoration-red-500 underline-offset-4 cursor-pointer">Energy for life</h2>
+            </Link>
             <p className="text-white text-lg mb-4">
               In all our business activities we comply with applicable laws, act in an ethical, sustainable and socially responsible manner, practise good corporate governance and respect internationally recognised human rights.
             </p>
@@ -166,10 +168,47 @@ export default function Home() {
 
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12">
+            <div className="space-y-4 group">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
+                <span className="material-icons-outlined text-primary group-hover:text-white">handshake</span>
+              </div>
+              <h3 className="font-display font-bold text-xl uppercase tracking-wide">Collaboration</h3>
+              <p className="text-slate-600">Forging long-term partnerships with communities and stakeholders to ensure mutual prosperity and energy security.</p>
+            </div>
+            <div className="space-y-4 group">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
+                <span className="material-icons-outlined text-primary group-hover:text-white">verified_user</span>
+              </div>
+              <h3 className="font-display font-bold text-xl uppercase tracking-wide">Excellence</h3>
+              <p className="text-slate-600">Our operational standards lead the industry, ensuring safety and precision in the most challenging environments.</p>
+            </div>
+            <div className="space-y-4 group">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
+                <span className="material-icons-outlined text-primary group-hover:text-white">psychology</span>
+              </div>
+              <h3 className="font-display font-bold text-xl uppercase tracking-wide">Innovation</h3>
+              <p className="text-slate-600">Pushing the boundaries of Hywind technology and decarbonizing natural gas production through R&D.</p>
+            </div>
+            <div className="space-y-4 group">
+              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 group-hover:bg-primary transition-colors">
+                <span className="material-icons-outlined text-primary group-hover:text-white">eco</span>
+              </div>
+              <h3 className="font-display font-bold text-xl uppercase tracking-wide">Responsibility</h3>
+              <p className="text-slate-600">Environmental stewardship is at our core, committed to a net-zero future by 2050.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center gap-4 mb-6">
-                <span className="text-xs font-bold text-red-500 tracking-widest uppercase border border-red-500 px-3 py-1">Ongoing Project</span>
+                <Link href="/projects">
+                  <span className="text-xs font-bold text-red-500 tracking-widest uppercase border border-red-500 px-3 py-1 hover:bg-red-500 hover:text-white transition-colors cursor-pointer">Ongoing Project</span>
+                </Link>
               </div>
               <h2 className="text-4xl font-bold mb-6 text-slate-900">Oil refining.</h2>
               <div className="prose prose-slate text-slate-600">
