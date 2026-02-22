@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: 'Support | DeepRidge Energy',
+    title: 'Support | Sovereign Renewables',
     description: 'Get support and information about our operations.',
 };
 

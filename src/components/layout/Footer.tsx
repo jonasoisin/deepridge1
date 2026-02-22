@@ -11,7 +11,7 @@ export function Footer() {
                             <div className="relative w-32 h-10">
                                 <Image
                                     src="/de.png"
-                                    alt="DeepRidge Energy"
+                                    alt="Sovereign Renewables"
                                     fill
                                     className="object-contain object-left"
                                 />
@@ -41,7 +41,7 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="pt-8 border-t border-red-500 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 gap-4">
-                    <p>© 2025 DeepRidge Energy Corp. All rights reserved.</p>
+                    <p>© 2025 Sovereign Renewables Corp. All rights reserved.</p>
                     <div className="flex gap-8">
                         <Link className="hover:text-red-500 transition-colors" href="/legal/terms-of-service">Terms of Service</Link>
                         <Link className="hover:text-red-500 transition-colors" href="/legal/privacy-policy">Privacy</Link>

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Decommissioning | DeepRidge Energy',
+    title: 'Decommissioning | Sovereign Renewables',
     description: 'Sustainable and safe decommissioning services.',
 };
 

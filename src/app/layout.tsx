@@ -29,19 +29,19 @@ const lexend = Lexend({
 
 
 export const metadata: Metadata = {
-  title: "DeepRidge Energy | Powering the Future",
-  description: "DeepRidge Energy is a global leader in sustainable extraction and floating offshore wind technology. We engineer the bridge to a cleaner future.",
+  title: "Sovereign Renewables | Powering the Future",
+  description: "Sovereign Renewables is a global leader in sustainable extraction and floating offshore wind technology. We engineer the bridge to a cleaner future.",
   openGraph: {
-    title: "DeepRidge Energy | Powering the Future",
-    description: "DeepRidge Energy is a global leader in sustainable extraction and floating offshore wind technology.",
-    url: "https://deepridge-energy.com",
-    siteName: "DeepRidge Energy",
+    title: "Sovereign Renewables | Powering the Future",
+    description: "Sovereign Renewables is a global leader in sustainable extraction and floating offshore wind technology.",
+    url: "https://sovereign-energy.com",
+    siteName: "Sovereign Renewables",
     images: [
       {
         url: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop",
         width: 1200,
         height: 630,
-        alt: "DeepRidge Energy Offshore Wind",
+        alt: "Sovereign Renewables Offshore Wind",
       },
     ],
     locale: "en_US",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DeepRidge Energy",
+    title: "Sovereign Renewables",
     description: "Powering the Future of Energy with Hywind and Natural Gas solutions.",
     images: ["https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop"],
   },

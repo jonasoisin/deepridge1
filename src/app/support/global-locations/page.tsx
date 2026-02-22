@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Global Locations | DeepRidge Energy',
+    title: 'Global Locations | Sovereign Renewables',
     description: 'Our global presence and operational hubs.',
 };
 
@@ -18,7 +18,7 @@ export default function GlobalLocationsPage() {
                 <div className="prose max-w-none">
                     <p>
                         With headquarters in Houston and major operations in the North Sea, Brazil, and Southeast Asia,
-                        DeepRidge Energy is positioned to serve the global energy market.
+                        Sovereign Renewables is positioned to serve the global energy market.
                     </p>
                 </div>
             </div>

@@ -30,7 +30,7 @@ export function SustainabilityReport() {
                         <div className="space-y-6">
                             <div className="border-b border-red-500/10 pb-6">
                                 <span className="text-primary text-xs font-bold uppercase block mb-2">March 14, 2024</span>
-                                <h4 className="font-bold hover:text-primary transition-colors cursor-pointer">DeepRidge partners with North Sea alliance for 500MW offshore expansion.</h4>
+                                <h4 className="font-bold hover:text-primary transition-colors cursor-pointer">Sovereign partners with North Sea alliance for 500MW offshore expansion.</h4>
                             </div>
                             <div className="border-b border-red-500/10 pb-6">
                                 <span className="text-primary text-xs font-bold uppercase block mb-2">February 28, 2024</span>
@@ -38,7 +38,7 @@ export function SustainabilityReport() {
                             </div>
                             <div className="pb-6">
                                 <span className="text-primary text-xs font-bold uppercase block mb-2">January 15, 2024</span>
-                                <h4 className="font-bold hover:text-primary transition-colors cursor-pointer">DeepRidge receives 'Triple-A' ESG rating for the fourth consecutive year.</h4>
+                                <h4 className="font-bold hover:text-primary transition-colors cursor-pointer">Sovereign receives 'Triple-A' ESG rating for the fourth consecutive year.</h4>
                             </div>
                         </div>
                     </div>

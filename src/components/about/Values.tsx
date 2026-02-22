@@ -9,15 +9,15 @@ export function Values() {
                             About us
                         </h3>
                         <p className="text-slate-600 leading-relaxed">
-                            We are DeepRidge Energy, a broad oil and gas energy company with a proud history. We are 2,000 committed colleagues developing oil, gas, wind and solar energy in more than 14 countries worldwide. We're one of the world's largest offshore operators, and a growing force in renewable energy. Driven by our international urge to explore beyond the horizon and dedication to safety, equality and sustainability, we're developing the energy of the future.
+                            We are Sovereign Renewables, a broad oil and gas energy company with a proud history. We are 2,000 committed colleagues developing oil, gas, wind and solar energy in more than 14 countries worldwide. We're one of the world's largest offshore operators, and a growing force in renewable energy. Driven by our international urge to explore beyond the horizon and dedication to safety, equality and sustainability, we're developing the energy of the future.
                         </p>
                     </div>
                     <div className="space-y-4">
                         <h3 className="font-display font-bold text-2xl uppercase tracking-wide border-b-2 border-primary pb-2 inline-block">
-                            DeepRidge Energy in brief
+                            Sovereign Renewables in brief
                         </h3>
                         <p className="text-slate-600 leading-relaxed">
-                            DeepRidge Energy is an international energy company present in more than 14 countries worldwide, including several of the world's most important oil and gas provinces. Founded in 1992 under the name DeepRidge Construction Company, we changed our name to DeepRidge Energy in 2010. Our headquarters is in Dallas, Texas USA, and we have over 2,000 employees.
+                            Sovereign Renewables is an international energy company present in more than 14 countries worldwide, including several of the world's most important oil and gas provinces. Founded in 1992 under the name Sovereign Construction Company, we changed our name to Sovereign Renewables in 2010. Our headquarters is in Dallas, Texas USA, and we have over 2,000 employees.
                         </p>
                     </div>
                     <div className="space-y-4">

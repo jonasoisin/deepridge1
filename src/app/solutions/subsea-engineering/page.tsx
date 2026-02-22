@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Subsea Engineering | DeepRidge Energy',
+    title: 'Subsea Engineering | Sovereign Renewables',
     description: 'Advanced subsea infrastructure and engineering.',
 };
 

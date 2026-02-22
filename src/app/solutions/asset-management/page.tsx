@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Asset Management | DeepRidge Energy',
+    title: 'Asset Management | Sovereign Renewables',
     description: 'Maximizing value through lifecycle asset management.',
 };
 

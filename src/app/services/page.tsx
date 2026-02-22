@@ -20,7 +20,7 @@ export default function Services() {
                                 <span className="text-primary">What we do.</span>
                             </h1>
                             <p className="text-base sm:text-lg text-slate-200 mb-6 sm:mb-8 max-w-2xl leading-relaxed">
-                                Our industry is experiencing fundamental challenges. From climate change and geopolitics to the energy markets, we are facing new realities. Some see them as threats. In DeepRidge Energy, we believe our job is to turn them into opportunities. That's why we're looking for new ways to utilise our expertise in the energy industry, exploring opportunities in new energy as well as driving innovation in oil and gas around the world. We know that the future has to be low carbon. Our ambition is to be the world's most carbon-efficient oil and gas producer, as well as driving innovation in offshore wind and renewable energy.
+                                Our industry is experiencing fundamental challenges. From climate change and geopolitics to the energy markets, we are facing new realities. Some see them as threats. In Sovereign Renewables, we believe our job is to turn them into opportunities. That's why we're looking for new ways to utilise our expertise in the energy industry, exploring opportunities in new energy as well as driving innovation in oil and gas around the world. We know that the future has to be low carbon. Our ambition is to be the world's most carbon-efficient oil and gas producer, as well as driving innovation in offshore wind and renewable energy.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link
@@ -64,7 +64,7 @@ export default function Services() {
                                     <p className="text-slate-600 leading-relaxed">
                                         A few years ago, floating offshore wind was a distant dream symbolised by a solitary, small-scale Hywind turbine offshore. Today, it is the most viable and mature solution,
                                         ready-for market. With Hywind, the world's first floating wind farm, we're unlocking the vast potential of floating offshore wind. We believe it's the next wave in renewable energy, and within the next decade, we aim to make foating wind a competitive renewable energy source.
-                                        DeepRidge Energy is the global leader in floating offshore wind:
+                                        Sovereign Renewables is the global leader in floating offshore wind:
                                         Hywind is a great example of what we can achieve by combining our existing offshore expertise with new and available technologies and innovative minds. Thoroughly proven
                                         through years of testing, it is the world's most viable floating wind turbine design consisting of a giant wind turbine placed on top of a floating vertical spar
                                     </p>
@@ -133,9 +133,9 @@ export default function Services() {
                                         Natural Gas Production
                                     </h2>
                                     <p className="text-slate-600 leading-relaxed">
-                                        Traditionally, most of DeepRidge's gas has been sold through long-term contracts to large European gas companies and suppliers. In the absence of a separate market price for gas, the sale price has often been
+                                        Traditionally, most of Sovereign's gas has been sold through long-term contracts to large European gas companies and suppliers. In the absence of a separate market price for gas, the sale price has often been
                                         indexed to the price of oil.
-                                        In the USA, DeepRidge Energy has shares and production in three premium shale oil and gas plays. Gas is used for energy production, heating and industrial purposes. Through transport agreements to New York City and Toronto, residents can keep winter temperatures at bay with shale gas from the Marcellus field.
+                                        In the USA, Sovereign Renewables has shares and production in three premium shale oil and gas plays. Gas is used for energy production, heating and industrial purposes. Through transport agreements to New York City and Toronto, residents can keep winter temperatures at bay with shale gas from the Marcellus field.
 
                                         Through commercial negotiations with our counterparts, we have modernised most of our long-term contracts, and gradually moved away from oil indexing. The price of gas is now directly linked to the price in the market places.
                                     </p>
@@ -338,7 +338,7 @@ export default function Services() {
                             <div className="absolute inset-0 bg-black flex items-end p-12">
                                 <div className="border-l-4 border-red-500 pl-6">
                                     <h3 className="text-3xl font-bold text-white mb-4 font-display">
-                                        DeepRidge Expands Hywind Project in Northern North Sea
+                                        Sovereign Expands Hywind Project in Northern North Sea
                                     </h3>
                                     <p className="text-slate-300 mb-6 max-w-lg">
                                         New milestone reached in offshore wind deployment with the
@@ -368,7 +368,7 @@ export default function Services() {
                                         MARCH 10, 2025
                                     </p>
                                     <h4 className="text-sm font-semibold group-hover:text-primary transition-colors leading-snug">
-                                        DeepRidge announces Q1 2025 financial results.
+                                        Sovereign announces Q1 2025 financial results.
                                     </h4>
                                 </div>
                                 <div className="group cursor-pointer">
@@ -417,7 +417,7 @@ export default function Services() {
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
                         <a
-                            href="mailto:williamreed@deepridgeenergy.com"
+                            href="mailto:williamreed@sovereignenergy.com"
                             className="bg-primary hover:bg-red-700 text-white px-10 py-4 font-bold uppercase tracking-widest transition-all"
                         >
                             Request a Consultation

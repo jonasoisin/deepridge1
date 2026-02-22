@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Ethics & Compliance | DeepRidge Energy',
+    title: 'Ethics & Compliance | Sovereign Renewables',
     description: 'Our commitment to ethical business practices.',
 };
 

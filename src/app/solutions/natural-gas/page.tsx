@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Natural Gas Services | DeepRidge Energy',
+    title: 'Natural Gas Services | Sovereign Renewables',
     description: 'Responsible natural gas extraction and processing.',
 };
 
@@ -17,7 +17,7 @@ export default function NaturalGasPage() {
                 </div>
                 <div className="prose max-w-none">
                     <p>
-                        DeepRidge provides advanced natural gas services, focusing on efficiency and
+                        Sovereign provides advanced natural gas services, focusing on efficiency and
                         emissions reduction to support global energy security during the transition.
                     </p>
                 </div>

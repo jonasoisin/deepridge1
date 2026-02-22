@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy | DeepRidge Energy',
+    title: 'Privacy Policy | Sovereign Renewables',
     description: 'How we protect and handle your data.',
 };
 
@@ -17,17 +17,17 @@ export default function PrivacyPolicyPage() {
                 </div>
                 <div className="prose max-w-none text-slate-600">
                     <section className="mb-8">
-                        <h2 className="text-xl font-bold mb-4 text-slate-800">1. DeepRidge Energy Digital Platform Privacy Policy</h2>
+                        <h2 className="text-xl font-bold mb-4 text-slate-800">1. Sovereign Renewables Digital Platform Privacy Policy</h2>
                         <div className="space-y-4">
-                            <p>This privacy notice applies to DeepRidge Energy and each company in which DeepRidge Energy (i) directly or indirectly, controls fifty percent (50%) or more of the share capital, or (ii) controls less than fifty percent (50%) of the share capital but in respect of which DeepRidge Energy has, directly or indirectly, the ability to direct or procure the direction of the management and policies (whether through the ownership of shares, by contract or otherwise) (together, the “DeepRidge Energy Group”).</p>
-                            <p>In this notice, “DeepRidge Energy”, “we”, “us” and “our” refers to the DeepRidge Energy Group.</p>
+                            <p>This privacy notice applies to Sovereign Renewables and each company in which Sovereign Renewables (i) directly or indirectly, controls fifty percent (50%) or more of the share capital, or (ii) controls less than fifty percent (50%) of the share capital but in respect of which Sovereign Renewables has, directly or indirectly, the ability to direct or procure the direction of the management and policies (whether through the ownership of shares, by contract or otherwise) (together, the “Sovereign Renewables Group”).</p>
+                            <p>In this notice, “Sovereign Renewables”, “we”, “us” and “our” refers to the Sovereign Renewables Group.</p>
                         </div>
                     </section>
 
                     <section className="mb-8">
                         <h2 className="text-xl font-bold mb-4 text-slate-800">About this privacy notice</h2>
                         <div className="space-y-4">
-                            <p>For the purposes of applicable data protection law, DeepRidge Energy is a data controller in respect of your personal data. We are responsible for ensuring that we use your personal data in compliance with data protection law.</p>
+                            <p>For the purposes of applicable data protection law, Sovereign Renewables is a data controller in respect of your personal data. We are responsible for ensuring that we use your personal data in compliance with data protection law.</p>
                             <p>This privacy notice is directed to individuals whose personal data we collect and process:</p>
                             <ul className="list-disc pl-5 space-y-2 ml-4">
                                 <li>via our websites (such as contacting us, registering with us and purchasing products or services via our website);</li>
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
                         <div className="space-y-4">
                             <p>The personal data we collect and process about you depends on the particular activity carried out, but includes:</p>
                             <ul className="list-disc pl-5 space-y-2 ml-4">
-                                <li><strong>Information that you provide to DeepRidge Energy:</strong> This includes information that you provide to us in correspondence and through forms and contracts we may enter into with you. This information may include your full name, date of birth, nationality, address, contact details (including telephone number and email address), job title, bank and card details, vehicle and licence information, identification details or other national identifier</li>
+                                <li><strong>Information that you provide to Sovereign Renewables:</strong> This includes information that you provide to us in correspondence and through forms and contracts we may enter into with you. This information may include your full name, date of birth, nationality, address, contact details (including telephone number and email address), job title, bank and card details, vehicle and licence information, identification details or other national identifier</li>
                                 <li><strong>Information we collect or generate about you:</strong> This may include information: (i) that we produce as a record of our relationship with you, including contact and business history; (ii) that we may collect via monitoring and call recording, including personal data collected in respect of your use of our websites; and (iii) collected when visiting our premises, including CCTV footage, and access and location data.</li>
                                 <li><strong>Information we obtain from other sources:</strong> This may include information from (i) publicly available sources, including third party agencies, such as credit reference agencies, fraud prevention agencies, law enforcement agencies, public databases and registers and records; and (ii) information obtained from sanctions checking and background screening providers.</li>
                             </ul>
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
                                 <li>we have legal and regulatory obligations that we have to discharge;</li>
                                 <li>we may need to in order to establish, exercise or defend our legal rights or for the purpose of legal proceedings;</li>
                                 <li>the personal data has been made public by you; and/or</li>
-                                <li>the use of your personal data as described is necessary for our legitimate business interests (or the legitimate interests of one or more DeepRidge Energy group companies), such as:
+                                <li>the use of your personal data as described is necessary for our legitimate business interests (or the legitimate interests of one or more Sovereign Renewables group companies), such as:
                                     <ul className="list-circle pl-5 space-y-2 mt-2">
                                         <li>for the management, development and administration of our business, including maintaining our relationships with third party suppliers;</li>
                                         <li>to communicate with you about changes to our products, services and website, and to communicate any new products and services we offer;</li>
@@ -94,7 +94,7 @@ export default function PrivacyPolicyPage() {
                         <h2 className="text-xl font-bold mb-4 text-slate-800">Disclosure of your personal data to third parties</h2>
                         <div className="space-y-4">
                             <h3 className="font-bold text-slate-800">Within the wider group</h3>
-                            <p>We may disclose your personal data to other members of our group for the purposes described above. We will take steps to ensure that the personal data is accessed only by DeepRidge Energy employees that have a need to do so for the purposes described in this notice.</p>
+                            <p>We may disclose your personal data to other members of our group for the purposes described above. We will take steps to ensure that the personal data is accessed only by Sovereign Renewables employees that have a need to do so for the purposes described in this notice.</p>
 
                             <h3 className="font-bold text-slate-800 mt-4">Outside of the group</h3>
                             <p>We may also share your personal data with the following categories of third parties outside of the group:</p>

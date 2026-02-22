@@ -1,6 +1,6 @@
-# Stitch Contact DeepRidge Energy
+# Stitch Contact Sovereign Renewables
 
-Overview of the Stitch Contact DeepRidge Energy project. This project is a Next.js application designed for DeepRidge Energy, featuring a modern, responsive design with a focus on showcased services, projects, and news.
+Overview of the Stitch Contact Sovereign Renewables project. This project is a Next.js application designed for Sovereign Renewables, featuring a modern, responsive design with a focus on showcased services, projects, and news.
 
 ## Features
 

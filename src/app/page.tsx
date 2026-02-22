@@ -34,7 +34,7 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center py-20 md:py-0">
           <div className="max-w-2xl border-l-4 border-red-500 pl-8 py-4 border-red-500">
             <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4 md:mb-6">
-              Welcome...<br />to DeepRidge Energy.
+              Welcome...<br />to Sovereign Renewables.
             </h1>
             <p className="text-base sm:text-xl text-slate-200 mb-6 md:mb-10 leading-relaxed max-w-lg">
               Where we energize the lives of millions of people.
@@ -213,10 +213,10 @@ export default function Home() {
               <h2 className="text-4xl font-bold mb-6 text-slate-900">Oil refining.</h2>
               <div className="prose prose-slate text-slate-600">
                 <p className="mb-4">
-                  DeepRidge Energy is capable of carrying out high volumes of oil refining. In recent years, the Company's refining activities have been focused on meeting the market demand for quality petroleum products.
+                  Sovereign Renewables is capable of carrying out high volumes of oil refining. In recent years, the Company's refining activities have been focused on meeting the market demand for quality petroleum products.
                 </p>
                 <p className="mb-4">
-                  Over a number of years, DeepRidge Energy has been consistently implementing the modernization program for refineries, which has improved the quality of its products and increased its competitiveness.
+                  Over a number of years, Sovereign Renewables has been consistently implementing the modernization program for refineries, which has improved the quality of its products and increased its competitiveness.
                 </p>
                 <p className="mb-8">
                   This is the most ambitious program for the modernization of oil refining capacities in the oil industry, which includes the fulfilment of the Company's obligations under the quadripartite agreement.

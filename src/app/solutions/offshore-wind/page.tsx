@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Offshore Wind Solutions | DeepRidge Energy',
+    title: 'Offshore Wind Solutions | Sovereign Renewables',
     description: 'Advanced offshore wind technology and Hywind solutions.',
 };
 

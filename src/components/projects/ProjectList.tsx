@@ -30,7 +30,7 @@ const projects = [
             { label: "OUTPUT", value: "High Capacity" },
             { label: "SUPPLY", value: "Dubai & UAE" }
         ],
-        image: "https://images.unsplash.com/photo-1566933294831-bda8d085df7c?auto=format&fit=crop&q=80",
+        image: "https://commons.wikimedia.org/wiki/Special:FilePath/Aderklaa_-_Gasstation.JPG",
     },
 ];
 

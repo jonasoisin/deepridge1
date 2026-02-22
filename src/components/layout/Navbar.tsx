@@ -20,7 +20,7 @@ export function Navbar() {
                             <div className="relative w-32 h-12">
                                 <Image
                                     src="/de.png"
-                                    alt="DeepRidge Energy"
+                                    alt="Sovereign Renewables"
                                     fill
                                     className="object-contain object-left"
                                     priority

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Cookie Settings | DeepRidge Energy',
+    title: 'Cookie Settings | Sovereign Renewables',
     description: 'Manage your cooking preferences.',
 };
 

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Sustainability | DeepRidge Energy',
+    title: 'Sustainability | Sovereign Renewables',
     description: 'Our commitment to a net-zero future and sustainable energy practices.',
 };
 
@@ -17,7 +17,7 @@ export default function SustainabilityPage() {
                 </div>
                 <div className="prose max-w-none">
                     <p>
-                        At DeepRidge, sustainability is at the core of our operations. From Hywind floating wind farms
+                        At Sovereign, sustainability is at the core of our operations. From Hywind floating wind farms
                         to carbon capture initiatives, we are actively reducing our environmental footprint.
                     </p>
                 </div>

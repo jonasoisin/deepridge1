@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Innovation Lab | DeepRidge Energy',
+    title: 'Innovation Lab | Sovereign Renewables',
     description: 'Exploring new frontiers in energy technology.',
 };
 

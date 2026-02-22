@@ -20,7 +20,7 @@ export function CTA() {
                         Join the Energy Revolution
                     </h2>
                     <p className="text-lg text-gray-300 leading-relaxed max-w-xl">
-                        Build a career that matters. At DeepRidge, we are looking for the next generation of engineers, thinkers, and doers to reshape the global energy landscape.
+                        Build a career that matters. At Sovereign, we are looking for the next generation of engineers, thinkers, and doers to reshape the global energy landscape.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 mt-10">
                         <Button variant="primary">FIND YOUR ROLE</Button>

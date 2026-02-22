@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Investors | DeepRidge Energy',
+    title: 'Investors | Sovereign Renewables',
     description: 'Financial information and investor relations.',
 };
 
@@ -17,7 +17,7 @@ export default function InvestorsPage() {
                 </div>
                 <div className="prose max-w-none">
                     <p>
-                        DeepRidge Energy is committed to transparency and delivering long-term value to our shareholders.
+                        Sovereign Renewables is committed to transparency and delivering long-term value to our shareholders.
                         Explore our financial reports, stock information, and corporate governance.
                     </p>
                 </div>
